@@ -215,6 +215,12 @@ local my_language = {
 
 	level_required = "Vous devez être level %s",
 	rank_required = "Vous devez avoir le rang %s.",
+	level_required_2 = "~r~Vous devez être level %s.",
+
+	updated_deathmessage = "~g~Vous avez mis à jour votre message de mort.",
+	updated_deatheffect = "~g~Vous avez mis à jour votre effet de kill.",
+	use = "Utiliser",
+	test = "Tester",
 
 	-- kits
 	kit_does_not_exist = "~r~Ce kit n'existe pas.",
@@ -232,6 +238,13 @@ local my_language = {
 	crew_booster_activated = "~b~%s~w~ a activé un booster de crew pour ~g~%s minutes~z~! ~b~XP +%s%%",
 	no_booster = "Vous n'avez aucun booster.",
 	
+	rank_expired = "~r~Votre rang boutique a expiré.",
+	supporter_role = "~g~Rang boutique:~w~ %s",
+	no_rank_warning = "Vous n'avez aucun rôle boutique.\n~r~Si vous avez acheté quelque chose, liez votre compte FiveM au jeu.",
+	no_fivem_id = "Votre compte FiveM n'est pas lié.\n~r~Vérifiez que vous avez un compte FiveM et qu'il est lié au jeu.",
+	no_queue_warning = "Vous n'avez aucun package en attente.\n~r~Patientez un moment ou essayez /getRank si vous souhaitez avoir votre rang.",
+	package_sync_success = "~g~Vos packages ont été synchronisés, enjoy!\n~w~Commandes utiles: /getRank, /booster",
+
 	-- animals
 	boar = "Sanglier",
 	cat = "Chat",
