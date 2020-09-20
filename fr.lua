@@ -114,6 +114,8 @@ local my_language = {
 	rename = "Renommer",
 	trade_with = "Troc",
 
+	please_wait_x_before = "~r~Patientez %s secondes avant de le faire une nouvelle fois.",
+
 	-- cloth
 	take_outfit = "Acheter cette tenue",
 	wardrobe_options = "option garde robe",
