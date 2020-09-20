@@ -113,7 +113,7 @@ local my_language = {
 	rename = "Rename",
 	trade_with = "Trade",
 	
-	please_wait_x_before = "~r~Please wait %s seconds before doing it again.",
+	please_wait_x_before = "~r~Please wait %s seconds before doing that.",
 
 	-- cloth
 	take_outfit = "Buy this outfit",
