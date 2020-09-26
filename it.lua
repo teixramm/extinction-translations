@@ -584,6 +584,8 @@ local my_language = {
 	skin_gold = "Oro",
 	skin_blue = "Blu",
 	skin_orange = "Arancione",
+	-- new
+	airdrop_coming = "~r~Un approvvigionamento sta arrivando, controlla la mappa."
 }
 
 AddLanguage("it", my_language)
