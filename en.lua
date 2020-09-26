@@ -1375,6 +1375,9 @@ local my_language = {
 	glendale2 = "Glendale Custom",
 	peyote3 = "Peyote Custom",
 	manana2 = "Manana Custom",
+
+	-- new
+	airdrop_coming = "~r~An airdrop is coming check your map."
 }
 
 AddLanguage("en", my_language)

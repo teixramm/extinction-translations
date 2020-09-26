@@ -466,6 +466,9 @@ local my_language = {
 	skin_orange = "Orange",
 
 	weapon_dagger = "Dague",
+
+	-- new
+	airdrop_coming = "~r~Un larguage est en chemin regardez votre map."
 }
 
 AddLanguage("fr", my_language)
