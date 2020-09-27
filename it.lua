@@ -190,12 +190,12 @@ local my_language = {
 	trade_other_full_item = "~r~Lo scambio è fallito, L'altro giocatore non ha abbastanza spazio.",
 	trade_full_for_item = "~r~Lo scambio è fallito, Non hai abbastanza spazio.",
 
-	press_e_to_loot_inv = "Premi ~INPUT_CONTEXT~ per lootare il suo inventario.",
+	press_e_to_loot_inv = "Premi ~INPUT_CONTEXT~ per lootare l'inventario.",
 	press_e_to_interact_with = "~HUD_COLOUR_NET_PLAYER27~Premi ~INPUT_CONTEXT~ per interagire con ~b~%s~HUD_COLOUR_NET_PLAYER27~.",
 	press_e_to = "Premi ~INPUT_CONTEXT~ per ~b~%s~w~.",
 	press_e_to_open_catalog = "Premi ~b~E~w~ per leggere il ~g~catalogo~w~.",
 	this_person = "Questa persona",
-	the_shop = "Questo negozzio",
+	the_shop = "Questo negozio",
 	you_are_not_allowed_to_do_that = "~HUD_COLOUR_DEGEN_RED~Non hai il permesso per farlo qua.",
 
 	no_weapon = "~r~Non hai nessuna arma equipaggiata.",
