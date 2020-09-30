@@ -468,7 +468,8 @@ local my_language = {
 	weapon_dagger = "Dague",
 
 	-- new
-	airdrop_coming = "~r~Un larguage est en chemin regardez votre map."
+	airdrop_coming = "~r~Un larguage est en chemin regardez votre map.",
+	killed_by_cheater = "~r~Vous avez été tué par un cheater.\n~w~Nous l'avons banni et votre mort a été annulée.",
 }
 
 AddLanguage("fr", my_language)

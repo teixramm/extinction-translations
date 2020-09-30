@@ -1377,7 +1377,8 @@ local my_language = {
 	manana2 = "Manana Custom",
 
 	-- new
-	airdrop_coming = "~r~An airdrop is coming check your map."
+	airdrop_coming = "~r~An airdrop is coming check your map.",
+	killed_by_cheater = "~r~You have been killed by a cheater.\n~w~We banned him and your death has been canceled.",
 }
 
 AddLanguage("en", my_language)
