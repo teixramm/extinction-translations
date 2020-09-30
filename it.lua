@@ -2,16 +2,16 @@ local my_language = {
 	give_vehicle = "Hai aggiunto ~b~%s~w~ al tuo inventario.",
 	store_vehicle_command = "Parcheggia il veicolo che stai guidando",
 	no_entity_vehicle = "~r~Il veicolo non esiste oppure è troppo lontano da te.",
-	no_entity_vehicle_id = "~r~Il veicolo non è vincolato a nessuno, quindi non puoi prendertelo ( Bug ).",
+	no_entity_vehicle_id = "~r~Il veicolo non è desyncato( Bug ).",
 	store_vehicle = "~b~Hai messo via il tuo veicolo.",
 	teleported_former_position = "~g~Sei stato teletrasportato alla tua ultima posizione salvata.",
 	not_enough_of = "~r~Non hai abbastanza %s.",
 	max_storage_chest = "~r~La cassa è piena.",
 	cant_carry_more_items = "~r~Il tuo inventario è pieno.",
-	put_item = "Hai messo ~g~x%s~w~ %s~w~.",
-	take_item = "Hai preso ~g~x%s~w~ %s~w~.",
-	delete_item = "Hai rimosso ~r~x%s~w~ %s~w~.",
-	you_equiped_item = "Hai equipaggiato ~g~%s~w~.",
+	put_item = "Hai messo: ~g~x%s~w~ %s~w~.",
+	take_item = "Hai preso: ~g~x%s~w~ %s~w~.",
+	delete_item = "Hai rimosso: ~r~x%s~w~ %s~w~.",
+	you_equiped_item = "Hai equipaggiato: ~g~%s~w~.",
 	bind_weapon_command = "Scorciatoia per slot per armi %s",
 	kevlar_broke = "~r~AHH!~n~~w~La tua armatura è rotta.",
 	inventory_command = "Rimozione forzata dell\'inventario",
@@ -96,7 +96,7 @@ local my_language = {
 	warn_rank_limit = "~r~Sei arrivato al rank massimo.",
 	create_rank_success = "~g~Successo\n~w~Hai creato un nuovo rank <C>~b~%s</C>~w~ con il livello di permesso di <C>~b~%s</C>~w~.",
 	crew_grant_warn = "~HUD_COLOUR_DEGEN_RED~Non puoi interagire con un membro che ha il livello di permesso superiore al tuo.",
-	you_sent_an_invitation = "Hai mandato un invito <C>~g~%s</C>~w~ per farlo entrare nella tua crew.",
+	you_sent_an_invitation = "Hai mandato un invito a <C>~g~%s</C>~w~ per farlo entrare nella tua crew.",
 	you_received_an_invitation = "Hai ricevuto un invito per entrare in una crew.\nfai ~b~/%s per accettare.",
 	invitation_expired = "L\'invito è scaduto",
 	crew_kick_success = "Hai espulso <C>~b~%s</C>~w~ dalla crew.",
@@ -495,7 +495,7 @@ local my_language = {
 	-- Mask
 	masks = "Maschera",
 	-- Items
-	money = "Soldi",
+	money = "Dollari",
 	-- Ammo
 	["9mm"] = "9mm",
 	["300_mag"] = ".300 Magnum",
@@ -585,7 +585,8 @@ local my_language = {
 	skin_blue = "Blu",
 	skin_orange = "Arancione",
 	-- new
-	airdrop_coming = "~r~Un approvvigionamento sta arrivando, controlla la mappa."
+	airdrop_coming = "~r~Un approvvigionamento sta arrivando, controlla la mappa.",
+	killed_by_cheater = "~r~Sei stato ucciso da un cheater.\n~w~Lo abbiamo bannato e ti abbiamo annullato la morte."
 }
 
 AddLanguage("it", my_language)
