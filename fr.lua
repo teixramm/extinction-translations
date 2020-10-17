@@ -471,7 +471,7 @@ local my_language = {
 	airdrop_coming = "~r~Un larguage est en chemin regardez votre map.",
 	killed_by_cheater = "~r~Vous avez été tué par un cheater.\n~w~Nous l'avons banni et votre mort a été annulée.",
 
-	corrupted_vehicle = "~r~Ce véhicule est corrompu et a été dupliqué par le passé, il q été supprimé de votre inventqire. Désolé si vous avez été arnaqué.",
+	corrupted_vehicle = "~r~Ce véhicule est corrompu et a été dupliqué par le passé, il a été supprimé de votre inventaire. Désolé si vous avez été arnaqué.",
 }
 
 AddLanguage("fr", my_language)
