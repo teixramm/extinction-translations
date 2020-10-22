@@ -443,6 +443,7 @@ local my_language = {
 	kill_notif = "~m~Tué",
 	you_killed = "Vous avez tué ~r~%s~w~",
 	already_used_reset_only = "~r~Vous avez déjà réinitialisé votre personnage.\n~w~Seulement les membres %s~w~ peuvent refaire leur personnage plus d'une fois.",
+	already_used_reset_only2 = "~r~Vous avez déjà fait cela.\n~w~Seulement les membres %s~w~ peuvent le faire plus d'une fois.",
 
 	hud_options = "Options du HUD",
 	advanced_hud = "Afficher le HUD avancé",

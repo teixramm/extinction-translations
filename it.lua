@@ -563,6 +563,7 @@ local my_language = {
 	kill_notif = "~m~Ucciso",
 	you_killed = "Hai ucciso ~r~%s~w~",
 	already_used_reset_only = "~r~You already have reset your character.\n~w~Only %s~w~ members can redo their character more than one time.",
+	already_used_reset_only2 = "~r~You already did that.\n~w~Only %s~w~ members can do that more than one time.",
 
 	hud_options = "Impostazioni HUD",
 	advanced_hud = "Display advanced HUD",
