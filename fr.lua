@@ -473,6 +473,11 @@ local my_language = {
 	killed_by_cheater = "~r~Vous avez été tué par un cheater.\n~w~Nous l'avons banni et votre mort a été annulée.",
 
 	corrupted_vehicle = "~r~Ce véhicule est corrompu et a été dupliqué par le passé, il a été supprimé de votre inventaire. Désolé si vous avez été arnaqué.",
+
+	-- Discord
+	join_discord_for_kit = "Rejoingez notre discord pour un kit gratuit!\n~g~discord.gg/gtalife",
+	discord_account_not_linked = "~r~Vous devez lier votre compte discord avec FiveM.",
+	discord_account_not_guild = "~r~Vous n'êtes pas sur notre serveur discord.\n~w~Rejoignez discord.gg/gtalife",
 }
 
 AddLanguage("fr", my_language)
