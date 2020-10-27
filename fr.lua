@@ -480,6 +480,7 @@ local my_language = {
 	discord_account_not_guild = "~r~Vous n'êtes pas sur notre serveur discord.\n~w~Rejoignez discord.gg/gtalife",
 
 	already_done_recently = "~r~Réessayez plus tard, vous l'avez déjà fait aujourd'hui.",
+	update_country = "Mettre à jour le pays",
 }
 
 AddLanguage("fr", my_language)

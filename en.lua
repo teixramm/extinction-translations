@@ -1389,6 +1389,7 @@ local my_language = {
 	discord_account_not_guild = "~r~You are not in our discord server.\n~w~Join discord.gg/gtalife",
 
 	already_done_recently = "~r~Try again later, you already did it recently.",
+	update_country = "Update country",
 }
 
 AddLanguage("en", my_language)
