@@ -478,6 +478,8 @@ local my_language = {
 	join_discord_for_kit = "Rejoingez notre discord pour un kit gratuit!\n~g~discord.gg/gtalife",
 	discord_account_not_linked = "~r~Vous devez lier votre compte discord avec FiveM.",
 	discord_account_not_guild = "~r~Vous n'êtes pas sur notre serveur discord.\n~w~Rejoignez discord.gg/gtalife",
+
+	already_done_recently = "~r~Réessayez plus tard, vous l'avez déjà fait aujourd'hui.",
 }
 
 AddLanguage("fr", my_language)
