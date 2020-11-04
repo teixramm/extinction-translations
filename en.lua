@@ -1390,6 +1390,19 @@ local my_language = {
 
 	already_done_recently = "~r~Try again later, you already did it recently.",
 	update_country = "Update country",
+
+	prestige_info = "~b~You reached the maximum level.\n~w~Type /prestige to get info on the prestige leveling system.",
+	prestige_not_max_level = "~r~You have not reached the maximum level.",
+	max_prestige_reached = "~r~You reached the last prestige.",
+	prestige_info_cmd = [[^3Prestige leveling system^7
+You are currently prestige ^4%s^7 and level ^5%s^7.
+
+If you reach the maximum level (%s) you can choose to get a prestige and restart your XP progress to return level 0.
+Getting a new prestige gives you a special badge and new perks like better loot, new items, more money or a higher inventory maximum weight.
+^2If you want to get a prestige and RETURN level 0 type ^1/setprestige^2
+]],
+	new_prestige = "You unlocked a new prestige!\n~g~You have now %s prestige(s)",
+	cant_store_event_veh = "~r~You cant store special vehicles.",
 }
 
 AddLanguage("en", my_language)

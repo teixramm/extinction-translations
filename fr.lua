@@ -227,8 +227,8 @@ local my_language = {
 	-- kits
 	kit_does_not_exist = "~r~Ce kit n'existe pas.",
 	kit_needs_rank = "Vous devez avoir le rang ~r~%s~w~ pour ce kit.",
-	wait_before_using_kit = "Veuillew patienter ~r~%s~w~ avant d'utiliser ce kit.",
-	received_kit = "Vous avew reçu votre kit ~b~%s~w~.",
+	wait_before_using_kit = "Veuillez patienter ~r~%s~w~ avant d'utiliser ce kit.",
+	received_kit = "Vous avez reçu votre kit ~b~%s~w~.",
 	no_kit = "Vous n'avez aucun kit.",
 
 	unable_to_find_booster = "Impossible de trouver un booster avec cette id.",
@@ -481,6 +481,19 @@ local my_language = {
 
 	already_done_recently = "~r~Réessayez plus tard, vous l'avez déjà fait aujourd'hui.",
 	update_country = "Mettre à jour le pays",
+
+	prestige_info = "~b~Vous avez atteint le niveau maximum.\n~w~Tapez /prestige pour avoir des infos sur le système de prestige.",
+	prestige_not_max_level = "~r~Vous n'avez pas atteint le niveau maximum.",
+	max_prestige_reached = "~r~Vous avez atteint le dernier prestige.",
+	prestige_info_cmd = [[^3Système de prestige^7
+Vous êtes actuellement prestige ^4%s^7 et niveau ^5%s^7.
+
+Si vous atteignez le niveau maximum (%s), vous pouvez choisir d'obtenir un prestige et de recommencer votre progression XP pour revenir au niveau 0.
+L'obtention d'un nouveau prestige vous donne un badge spécial et de nouveaux avantages comme du meilleur loot, des nouveaux items, plus d'argent ou un poids maximum d'inventaire plus élevé.
+^2Si vous voulez obtenir un prestige et RECOMMENCER level 0 tapez ^1/setprestige^2
+]],
+	new_prestige = "Vous avez débloqué un nouveau prestige!\n~g~Vous êtes désormais prestige %s.",
+	cant_store_event_veh = "~r~Vous ne pouvez pas ranger les véhicules spéciaux.",
 }
 
 AddLanguage("fr", my_language)
