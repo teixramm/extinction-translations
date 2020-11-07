@@ -494,6 +494,16 @@ L'obtention d'un nouveau prestige vous donne un badge spécial et de nouveaux av
 ]],
 	new_prestige = "Vous avez débloqué un nouveau prestige!\n~g~Vous êtes désormais prestige %s.",
 	cant_store_event_veh = "~r~Vous ne pouvez pas ranger les véhicules spéciaux.",
+
+	you_are_no_longer_in_combat = "🛡️ ~b~Vous n'êtes plus en combat.",
+	you_are_in_combat_mode = "🛡️ ~b~Vous êtes en combat.\nSi vous déconnectez vous mourrez.",
+	you_disconnected_in_combat = "💀 Vous avez déconnecté en combat, vous êtes mort.",
+
+	not_enough_prestige_points = "~r~Vous n'avez pas suffisamment de point de prestige.",
+	you_reached_max_prestige_stats_rank = "~r~Vous avez atteint le niveau maximum pour cette amélioration.",
+	new_prestige_stats_upgrade = "Vous avez amélioré votre ~b~%s~w~\n~g~%s/%s",
+
+	legendary_vehicle_pop = "~r~Un véhicule légendaire est apparu sur la carte.",
 }
 
 AddLanguage("fr", my_language)

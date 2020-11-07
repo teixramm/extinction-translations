@@ -1403,6 +1403,16 @@ Getting a new prestige gives you a special badge and new perks like better loot,
 ]],
 	new_prestige = "You unlocked a new prestige!\n~g~You have now %s prestige(s)",
 	cant_store_event_veh = "~r~You cant store special vehicles.",
+
+	you_are_no_longer_in_combat = "🛡️ ~b~You are no longer in combat.",
+	you_are_in_combat_mode = "🛡️ ~b~You are in combat mode.\nIf you disconnect you will die.",
+	you_disconnected_in_combat = "💀 You disconnected in combat mode, you died.",
+
+	not_enough_prestige_points = "~r~You do not have enough prestige points.",
+	you_reached_max_prestige_stats_rank = "~r~You reached the maximum rank for this prestige upgrade.",
+	new_prestige_stats_upgrade = "You upgraded your ~b~%s~w~\n~g~%s/%s",
+
+	legendary_vehicle_pop = "~r~A legendary vehicle appeared on the map.",
 }
 
 AddLanguage("en", my_language)
