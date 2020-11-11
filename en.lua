@@ -1413,6 +1413,20 @@ Getting a new prestige gives you a special badge and new perks like better loot,
 	new_prestige_stats_upgrade = "You upgraded your ~b~%s~w~\n~g~%s/%s",
 
 	legendary_vehicle_pop = "~r~A legendary vehicle appeared on the map.",
+
+	-- poll one
+	poll1_q1 = "What kind of server would you like to see?",
+	poll1_q2 = "What kind of update would you like to prioritize for Extinction?",
+
+	poll1_q1_a1 = "Battle Royale",
+	poll1_q1_a2 = "Private missions solo or with 1-4 friends (Payday / Heist / Hitman like)",
+	poll1_q1_a3 = "Race",
+	poll1_q1_a4 = "Murder / Horror game",
+
+	poll1_q2_a1 = "PvE improve zombies/farm",
+	poll1_q2_a2 = "Add new map events",
+	poll1_q2_a3 = "Shop/Trade update",
+	poll1_q2_a4 = "More RPG stats / improvements",
 }
 
 AddLanguage("en", my_language)
