@@ -518,6 +518,9 @@ L'obtention d'un nouveau prestige vous donne un badge spécial et de nouveaux av
 	poll1_q2_a2 = "Ajouter des évènements sur la map",
 	poll1_q2_a3 = "Shop/Troc MAJ",
 	poll1_q2_a4 = "Plus de stats RPG / améliorations",
+
+	-- new
+	combat_mode_container_disabled = "~r~Vous êtes en combat.\n~w~Vous ne pouvez pas ranger d'objet.",
 }
 
 AddLanguage("fr", my_language)
