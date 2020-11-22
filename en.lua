@@ -1427,6 +1427,12 @@ Getting a new prestige gives you a special badge and new perks like better loot,
 	poll1_q2_a2 = "Add new map events",
 	poll1_q2_a3 = "Shop/Trade update",
 	poll1_q2_a4 = "More RPG stats / improvements",
+
+	combat_mode_container_disabled = "~r~You are in combat.\n~w~You cannot store items.",
+	gcoins_wallet_updated = "~g~You GCoins wallet has been updated.",
+	not_enough_gcoins = "~r~You do not have enough GCoins.",
+	gcoins_something_went_wrong = "~r~Something went wrong.",
+	you_bought_with_gcoins = "You bought ~g~%s~w~ for ~b~%s GCoins~w~.",
 }
 
 AddLanguage("en", my_language)
