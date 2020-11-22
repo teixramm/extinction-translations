@@ -521,7 +521,7 @@ L'obtention d'un nouveau prestige vous donne un badge spécial et de nouveaux av
 
 	-- new
 	combat_mode_container_disabled = "~r~Vous êtes en combat.\n~w~Vous ne pouvez pas ranger d'objet.",
-	gcoins_wallet_updated = "~g~Vos GCoins ont été mis à jour.",
+	gcoins_wallet_updated = "~g~Vos GCoins ont été mis à jour.\n~w~+%s GCoins",
 	not_enough_gcoins = "~r~Vous n'avez pas suffisamment de GCoins.",
 	gcoins_something_went_wrong = "~r~Something went wrong.",
 	you_bought_with_gcoins = "Vous avez acheté ~g~%s~w~ pour ~b~%s GCoins~w~.",
