@@ -525,6 +525,8 @@ L'obtention d'un nouveau prestige vous donne un badge spécial et de nouveaux av
 	not_enough_gcoins = "~r~Vous n'avez pas suffisamment de GCoins.",
 	gcoins_something_went_wrong = "~r~Something went wrong.",
 	you_bought_with_gcoins = "Vous avez acheté ~g~%s~w~ pour ~b~%s GCoins~w~.",
+
+	equiping_armor = "Kevlar",
 }
 
 AddLanguage("fr", my_language)

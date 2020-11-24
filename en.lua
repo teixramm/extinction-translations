@@ -1433,6 +1433,8 @@ Getting a new prestige gives you a special badge and new perks like better loot,
 	not_enough_gcoins = "~r~You do not have enough GCoins.",
 	gcoins_something_went_wrong = "~r~Something went wrong.",
 	you_bought_with_gcoins = "You bought ~g~%s~w~ for ~b~%s GCoins~w~.",
+
+	equiping_armor = "Equiping armor",
 }
 
 AddLanguage("en", my_language)
