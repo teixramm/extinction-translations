@@ -529,6 +529,8 @@ L'obtention d'un nouveau prestige vous donne un badge spécial et de nouveaux av
 	equiping_armor = "Kevlar",
 
 	toggle_mute_player = "Muter/Demuter",
+	you_muted_this_player = "~b~Vous avez muté ce joueur.",
+	you_unmuted_this_player = "~b~Vous avez démuté ce joueur.",
 }
 
 AddLanguage("fr", my_language)

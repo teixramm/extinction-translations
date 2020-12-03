@@ -1429,6 +1429,8 @@ Getting a new prestige gives you a special badge and new perks like better loot,
 	equiping_armor = "Equiping armor",
 
 	toggle_mute_player = "Toggle Mute",
+	you_muted_this_player = "~b~You muted this player.",
+	you_unmuted_this_player = "~b~You unmuted this player.",
 }
 
 AddLanguage("en", my_language)
