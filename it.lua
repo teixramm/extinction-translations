@@ -562,8 +562,8 @@ local my_language = {
 	you_have_been_killed_by = "Sei stato ucciso da ~r~%s (%s)",
 	kill_notif = "~m~Ucciso",
 	you_killed = "Hai ucciso ~r~%s~w~",
-	already_used_reset_only = "~r~You already have reset your character.\n~w~Only %s~w~ members can redo their character more than one time.",
-	already_used_reset_only2 = "~r~You already did that.\n~w~Only %s~w~ members can do that more than one time.",
+	already_used_reset_only = "~r~Hai gia resettato il tuo personaggio.\n~w~Solo i membri %s~w~ can redo their character more than one time.",
+	already_used_reset_only2 = "~r~Lo hai già fatto.\n~w~Solo i membri %s~w~ can do that more than one time.",
 
 	hud_options = "Impostazioni HUD",
 	advanced_hud = "Display advanced HUD",
@@ -587,7 +587,17 @@ local my_language = {
 	skin_orange = "Arancione",
 	-- new
 	airdrop_coming = "~r~Un approvvigionamento sta arrivando, controlla la mappa.",
-	killed_by_cheater = "~r~Sei stato ucciso da un cheater.\n~w~Lo abbiamo bannato e ti abbiamo annullato la morte."
+	killed_by_cheater = "~r~Sei stato ucciso da un cheater.\n~w~Lo abbiamo bannato e ti abbiamo annullato la morte.",
+	
+	corrupted_vehicle = "~r~Questo veicolo è stato duplicato precedentemente, ed è stato rimosso dal tuo inventario. Scusa se sei stato scammato.",
+	
+	-- Discord
+	join_discord_for_kit = "Entra nel nostro discord per ottenere un Kit Discord!\n~g~discord.gg/gtalife",
+	discord_account_not_linked = "~r~Hai bisogno di linkare il tuo account discord con FiveM.",
+	discord_account_not_guild = "~r~Non sei dentro il nostro server discord.\n~w~Entra su discord.gg/gtalife",
+	
+	already_done_recently = "~r~Riprova piu tardi, lo hai già fatto recentemente.",
+	update_country = "Aggiorna Continente",
 }
 
 AddLanguage("it", my_language)
