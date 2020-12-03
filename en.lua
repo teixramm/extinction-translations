@@ -1427,6 +1427,8 @@ Getting a new prestige gives you a special badge and new perks like better loot,
 	you_bought_with_gcoins = "You bought ~g~%s~w~ for ~b~%s GCoins~w~.",
 
 	equiping_armor = "Equiping armor",
+
+	toggle_mute_player = "Toggle Mute",
 }
 
 AddLanguage("en", my_language)

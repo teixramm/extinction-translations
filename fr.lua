@@ -527,6 +527,8 @@ L'obtention d'un nouveau prestige vous donne un badge spécial et de nouveaux av
 	you_bought_with_gcoins = "Vous avez acheté ~g~%s~w~ pour ~b~%s GCoins~w~.",
 
 	equiping_armor = "Kevlar",
+
+	toggle_mute_player = "Muter/Demuter",
 }
 
 AddLanguage("fr", my_language)
