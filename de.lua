@@ -1,7 +1,7 @@
 local my_language = {
     give_vehicle = "Du hast ~b~%s~w~ zu deinem Inventar hinzugefügt.",
     store_vehicle_command = "Lagert das Fahrzeug ein, das du fährst.",
-    no_entity_vehicle = "~r~Das Auto ist zu weit entfernt oder existiert nicht.",
+    no_entity_vehicle = "~r~Das Fahrzeug ist zu weit entfernt oder existiert nicht.",
     no_entity_vehicle_id = "~r~Das Fahrzeug besitzt keine ID, daher kannst du es nicht einlagern.",
     store_vehicle = "~b~Du hast dein Fahrzeug eingelagert.",
     teleported_former_position = "~g~Du wurdest zu deiner zuletzt gespeicherten Position teleportiert",
@@ -35,14 +35,14 @@ local my_language = {
     put_item_container = "Du hast ~g~x%s~w~ %s~w~ in deinen Container gelegt.",
     take_item_container = "Du hast ~g~x%s~w~ %s~w~ aus deinem Container genommen.",
     not_allowed_here = "~r~Du kannst das hier nicht.",
-    cant_store_moving_veh = "~r~Du kannst dein Auto nicht einlagern, wenn es sich bewegt",
+    cant_store_moving_veh = "~r~Du kannst dein Fahrzeug nicht einlagern, wenn es sich bewegt",
     use_repair_tool = "Benutzt das Repair-Kit.",
     please_get_closer = "~b~Bitte geh näher ran, kein Objekt in der Nähe.",
     you_cancel_action = "~r~Du hast die Aktion abgebrochen.",
     selected_target_message = "Ausgewähltes Ziel:~n~%s~n~~r~Drücke ~b~Y~r~ um abzubrechen, ~n~~r~Drücke ~g~X~r~ um weiterzumachen.",
     target_you = "~b~DU",
     target_screen = "~g~angezeigt",
-    take_this_path = "Gehe hier entlang",
+    take_this_path = "diesen Weg zu geheng",
  
     -- hud
     default_hud = "Standardmäßiges HUD",
@@ -118,7 +118,7 @@ local my_language = {
     -- cloth
     take_outfit = "Outfit kaufen",
     wardrobe_options = "Kleiderschrank",
-    wardrobe = "Kleiderschranke",
+    wardrobe = "Kleiderschrank",
     manual_options = "Optionen",
     manual_mode = "manueller Modus",
     save_outfit = "Dieses outfit speichern",
@@ -148,12 +148,12 @@ local my_language = {
     bags = "Taschen/Rucksäcke",
     undershirt = "Unterteil",
     neck = "Hals",
-    bracelets = "bracelets",
+    bracelets = "Armbänder",
     montres = "Uhren",
     earrings = "Ohrringe",
     glasses = "Brillen",
     hats = "Hüte",
-    graphiques = "Dekorationen",
+    graphiques = "Logo",
  
     -- health
     inconscious = "bewusstlos",
@@ -191,11 +191,11 @@ local my_language = {
     trade_full_for_item = "~r~Der Handel ist fehlgeschlagen, du hast nicht genug Platz.",
  
     press_e_to_loot_inv = "Drücke ~INPUT_CONTEXT~ um die Tasche zu looten.",
-    press_e_to_interact_with = "~HUD_COLOUR_NET_PLAYER27~Drücke~INPUT_CONTEXT~ um mit ~b~%s~HUD_COLOUR_NET_PLAYER27~ ~w~zu interagieren.",
-    press_e_to = "Drücke ~INPUT_CONTEXT~ für ~b~%s~w~.",
+    press_e_to_interact_with = "~HUD_COLOUR_NET_PLAYER27~Drücke~INPUT_CONTEXT~ um mit ~b~%s~HUD_COLOUR_NET_PLAYER27~ ~w~zu reden.",
+    press_e_to = "Drücke ~INPUT_CONTEXT~ um ~b~%s~w~.",
     press_e_to_open_catalog = "Drücke ~b~E~w~ um den ~g~Prospekt~w~ anzuschauen.",
-    this_person = "Diese person",
-    the_shop = "Dieser Shop",
+    this_person = "diese Person",
+    the_shop = "diesem Shop",
     you_are_not_allowed_to_do_that = "~HUD_COLOUR_DEGEN_RED~Du bist nicht berechtig dies zu tun.",
  
     no_weapon = "~r~Du hast keine Waffe ausgerüstet.",
@@ -204,7 +204,7 @@ local my_language = {
     you_used_ammo = "Du hast deine ~b~%s~w~ mit ~b~x%s~w~ ~b~%s~w~ geladen.",
  
     choose_a_destination = "Wähle dein ~b~Ziel",
-    open_your_chest = "Öffne deine Kiste",
+    open_your_chest = "deinen Safecontainer zu öffnen",
     no_enough_money = "~r~Du hast nicht genug Geld.",
     you_paid = "Du hast ~g~$%s~w~ für ~b~%s~w~ bezahlt.",
     you_paid_basket = "Du hast ~g~$%s~w~ für deine Waren bezahlt.",
@@ -220,7 +220,7 @@ local my_language = {
     front_post_ls_2 = "Los Santos Außenposten 2",
     front_post_bc = "Außenposten Blaine County",
     front_post_bc_2 = "Außenposten Blaine County 2",
-    main_post_ls = "Zentrale Safe City",
+    main_post_ls = "Zentrale Los Santos",
     main_post_bc = "Zentrale Blaine County",
     random_zone = "Zufälliger Ort (In der Luft)",
  
@@ -228,7 +228,7 @@ local my_language = {
     only_in_safezone = "~r~Dies ist nur innerhalb einer grünen Zone möglich.",
     -- commerce stuff
     feature_gold_only = "Nur ~y~Gold-Spieler~w~ können dies.",
-    feature_diamond_only = "Nur ~b~Diamant-Spieler~w~ können dies.",
+    feature_diamond_only = "Nur ~b~Diamond-Spieler~w~ können dies.",
     you_turned_into = "Du hast dich in ein ~g~%s~w~ verwandelt.",
     wait_between_transformation = "~r~Bitte warte einen Moment, bis du den Morph-Mode wieder verwenden kannst.",
     wait_between = "~r~Bitte warte einen Moment, bis du dies erneut tust.",
@@ -297,7 +297,7 @@ local my_language = {
     modifications_custom = "Spezialtuning",
     modifications_benny = "Benny's Tuning",
     paint = "Farbe",
-    custom_your_car = "Dein Auto tunen",
+    custom_your_car = "Dein Fahrzeug tunen",
     wheels_modifications = "Reifentuning",
     performances = "Leistung",
     neons = "Neon",
@@ -384,8 +384,8 @@ local my_language = {
     street = "Straße",
     discount = "Rabatt",
     select_your_car = "Wähle dein Fahrzeug",
-    select_car_custom = "Wähle das Auto, welches du tunen Möchtest. Die Nummer zwischen den PFeilen ist der Item-Key.",
-    loading_vehicle = "Auto spawnen...",
+    select_car_custom = "Wähle das Fahrzeug, welches du tunen Möchtest. Die Nummer zwischen den Pfeilen ist der Item-Key.",
+    loading_vehicle = "Fahrzeug spawnen...",
     invalid_vehicle = "~r~Ungültiges Fahrzeug.",
     invalid_vehicle_please_spawn = "~r~Ungültiges Fahrzeugitem. Bitte spawne es einmalig, bevor du etwas damit machst.",
     free_take_and_validate = "Alles kostenlos! Nimm was du tragen kannst und fahre fort!",
@@ -495,7 +495,7 @@ local my_language = {
     -- Mask
     masks = "Masken",
     -- Items
-    money = "Geld",
+    money = "Geldscheine",
     -- Ammo
     ["9mm"] = "9mm",
     ["300_mag"] = ".300 Magnum",
@@ -511,7 +511,7 @@ local my_language = {
     medkit = "Verbandskasten",
     kevlar = "Weste",
     gps = "GPS",
-    repair_tool = "Reperatur kit",
+    repair_tool = "Reparatur kit",
     engine_veh = "Motor",
     wheel_veh = "Reifen",
     paint_spray = "Tuning Werkstatt",
@@ -552,10 +552,10 @@ local my_language = {
     skin_orange = "Orange",
  
     -- new
-    airdrop_coming = "~r~Ein Airdrop ist im Anflug, überprüfe deine Karte.",
+    airdrop_coming = "~r~Ein Airdrop ist im Anflug, wirf einen Blick auf die Map.",
     killed_by_cheater = "~r~Du wurdest durch einen Cheater getötet.\n~w~Wir haben ihn gebannt und dein Tod wurde rückgängig gemacht.",
  
-    corrupted_vehicle = "~r~Das Fahrzeug ist beschädigt und wurde in der Vergangenheit geduped, es wurde aus deinem Inventar entfernt. Es tut uns leid, wenn dich jemand damit über den Tisch gezogen hat.",
+    corrupted_vehicle = "~r~Das Fahrzeug ist beschädigt und wurde in der Vergangenheit dupliziert, es wurde aus deinem Inventar entfernt. Es tut uns leid, wenn dich jemand damit über den Tisch gezogen hat.",
  
     -- Discord
     join_discord_for_kit = "Komm auf unseren Discord um ein kostenloses Discord Kit zu bekommen!\n~g~discord.gg/gtalife",
@@ -575,7 +575,7 @@ Wenn du das maximale Level erreichen solltest (%s) hast du die Möglichkeit, Pre
 Durch ein neues Prestige bekommst du ein spezielles Abzeichen und neue Perks, wie zum Beispiel besseres Loot, neue Items, mehr Geld oder ein größeres Maximalgewicht deines Inventares.
 ^2Wenn du Prestige werden willst und wieder von Level 0 anfangen möchtest gib ein ^1/setprestige^2 in den Chat]],
     new_prestige = "Du hast ein neues Prestige freigeschaltet!\n~g~Du bist nun %s Prestige",
-    cant_store_event_veh = "~r~Du kannst keine legendären Fahrzeuge verstauen.",
+    cant_store_event_veh = "~r~Du kannst keine legendären Fahrzeuge einlagern.",
  
     you_are_no_longer_in_combat = "🛡️ ~b~Du bist nicht mehr im combat mode.",
     you_are_in_combat_mode = "🛡️ ~b~Du bist im combat mode.\nWenn du dich ausloggst, stirbst du.",
