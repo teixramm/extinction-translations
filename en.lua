@@ -1431,6 +1431,9 @@ Getting a new prestige gives you a special badge and new perks like better loot,
 	toggle_mute_player = "Toggle Mute",
 	you_muted_this_player = "~b~You muted this player.",
 	you_unmuted_this_player = "~b~You unmuted this player.",
+
+	already_purchased = "~r~You have already purchased this item.",
+	weapon_camo_preview = "You are previsualizing the weapon base model, some attachments are missing.\n~INPUT_CELLPHONE_CANCEL~ to exit the preview.",
 }
 
 AddLanguage("en", my_language)

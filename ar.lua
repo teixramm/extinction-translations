@@ -166,8 +166,8 @@ local my_language = {
     you_respawned = "~g~لقد عشت.",
  
     player_too_far_to_interact = "~r~اللاعب الذي تريد التفاعل معه بعيد جدًا عنك.",
-    send_trade_invitation_to = "لقد أرسلت دعوة للتبادل مع ~ b ~٪ s ~ w ~. \ n ~ b ~ انتظر حتى يقبلها اللاعب الآخر.",
-    receive_invitation_from = "لقد تلقيت دعوة للتبادل من ~ b ~٪ s ~ w ~. \ n ~ b ~ اكتب ~ w ~ / قبول التجارة٪ s ~ b ~ لبدء التداول.",
+    send_trade_invitation_to = "لقد أرسلت دعوة للتبادل مع ~b~٪ s~w~.\n~b~انتظر حتى يقبلها اللاعب الآخر.",
+    receive_invitation_from = "لقد تلقيت دعوة للتبادل من ~b~٪ s ~w ~.\n~b~اكتب ~w~/trade accept %s~b~ لبدء التداول.",
  
     invalid_command_args = "وسيطات الأمر غير صالحة: %s",
     start_trade_command_help = "ابدأ تجارة مع لاعب آخر",
