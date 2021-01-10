@@ -1472,7 +1472,7 @@ Getting a new prestige gives you a special badge and new perks like better loot,
 	dungeon_join_party = "~g~You joined the dungeon party.",
 	dungeon_too_late_for_invitation = "~r~You were too late. You cannot join the dungeon at this state of the game.",
 	dungeon_already_invited_this_player = "~r~You have already invited this player.",
-	dungeon_invitation_received = "You received an invitation from ~b~%s~w~ to join its dungeon party.\nType ~g~/join_dungeon %s~w~ to join the party.",
+	dungeon_invitation_received = "You received an invitation from ~b~%s~w~ to join its dungeon party.\nType ~g~/joinDungeon %s~w~ to join the party.",
 	dungeon_invitation_sent = "You invited ~g~%s~w~ to your dungeon party.",
 }
 
