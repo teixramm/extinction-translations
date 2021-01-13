@@ -1503,10 +1503,12 @@ Getting a new prestige gives you a special badge and new perks like better loot,
 	dailymission_useitem = "Used items",
 	dailymission_playtime = "Play time",
 	dailymission_xpharvest = "Harvested XO",
-	dailymission_sellofferpurchased = "translation",
-	dailymission_sellofferpurchasedbyme = "translation",
-	dailymission_tradeitems = "translation",
-	dailymission_createbuyoffer = "translation", 
+	dailymission_sellofferpurchased = "Sell offers purchased",
+	dailymission_sellofferpurchasedbyme = "Sell offers purchased",
+	dailymission_tradeitems = "Items traded",
+	dailymission_createbuyoffer = "Buy offers created",
+
+	dailymission_completed = "~g~You completed a daily mission!\n~b~+%s XP",
 }
 
 AddLanguage("en", my_language)
