@@ -534,6 +534,30 @@ L'obtention d'un nouveau prestige vous donne un badge spécial et de nouveaux av
 
 	already_purchased = "~r~Vous avez déjà acheté cet item.",
 	weapon_camo_preview = "Vous prévisualisez le modèle de base de l'arme, certaines pièces jointes sont manquantes.\n~INPUT_CELLPHONE_CANCEL~ pour quitter l'aperçu.",
+
+	character_creation_mix_desc = "Sélectionnez si la forme de votre visage est plus influencée par celle de votre père / mère.",
+	character_creation_skin_desc = "Sélectionnez si votre peau est plus influencée par celle de votre père / mère.",
+
+	ff_1 = "Largeur nez",
+	ff_2 = "Hauteur nez",
+	ff_3 = "Longueur nez",
+	ff_4 = "Abaissement du nez",
+	ff_5 = "Abaissement pic du nez",
+	ff_6 = "Torsion du nez",
+	ff_7 = "Hauteur sourcils",
+	ff_8 = "Profondeur sourcils",
+	ff_9 = "Hauteur des pommettes",
+	ff_10 = "Largeur des pommettes",
+	ff_11 = "Largeur des joues",
+	ff_12 = "Ouverture des yeux",
+	ff_13 = "Épaisseur des lèvres",
+	ff_14 = "Largeur de la mâchoire",
+	ff_15 = "Longueur du dos de la mâchoire",
+	ff_16 = "Abaissement du menton",
+	ff_17 = "Longueur de l'os du menton",
+	ff_18 = "Largeur du menton",
+	ff_19 = "Trou du menton",
+	ff_20 = "Epaisseur du cou",
 }
 
 AddLanguage("fr", my_language)

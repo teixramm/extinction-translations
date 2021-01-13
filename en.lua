@@ -1509,6 +1509,30 @@ Getting a new prestige gives you a special badge and new perks like better loot,
 	dailymission_createbuyoffer = "Buy offers created",
 
 	dailymission_completed = "~g~You completed a daily mission!\n~b~+%s XP",
+
+	character_creation_mix_desc = "Select whether if the shape of your face is more influenced by the shape of your father/mother.",
+	character_creation_skin_desc = "Select whether if your skin is more influenced by the skin of your father/mother.",
+
+	ff_1 = "Nose width",
+	ff_2 = "Nose height",
+	ff_3 = "Nose length",
+	ff_4 = "Nose drooping",
+	ff_5 = "Nose peak drop",
+	ff_6 = "Nose twist",
+	ff_7 = "Eyebrow height",
+	ff_8 = "Eyebrow depth",
+	ff_9 = "Cheekbone height",
+	ff_10 = "Cheekbone width",
+	ff_11 = "Cheek width",
+	ff_12 = "Eyes opening",
+	ff_13 = "Lip thickness",
+	ff_14 = "Jaw width",
+	ff_15 = "Jaw back length",
+	ff_16 = "Chin lowering",
+	ff_17 = "Chin bone length",
+	ff_18 = "Chin Width",
+	ff_19 = "Chin hole",
+	ff_20 = "Neck thickness",
 }
 
 AddLanguage("en", my_language)
