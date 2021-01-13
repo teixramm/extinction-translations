@@ -1463,6 +1463,9 @@ Getting a new prestige gives you a special badge and new perks like better loot,
 	marketplace_create_buy_offer = "You created a buy offer for ~b~%sx %s ~w~for ~g~$%s~w~ per unit.",
 
 	i_want_to_enter_in_my_property = "I want to enter in my property.",
+	i_want_to_exit_private_world = "I want to return in the public world.",
+	public_world = "Public World",
+	private_world = "Private World",
 
 	dungeon_no_more_time = "~r~You have been too slow. The dungeon closed.",
 	dungeon_participant_left = "~r~%s left the dungeon.",
