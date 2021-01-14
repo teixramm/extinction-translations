@@ -1533,6 +1533,12 @@ Getting a new prestige gives you a special badge and new perks like better loot,
 	ff_18 = "Chin Width",
 	ff_19 = "Chin hole",
 	ff_20 = "Neck thickness",
+
+	exit_the_darkzone = "sortir de la darkzone",
+	you_entered_the_darkzone = "~r~You entered the darkzone.",
+	you_left_the_darkzone = "~r~You left the darkzone.",
+	cannot_enter_darkzone_time = "~r~The darkzone is not open yet, wait.",
+	darkzone_is_full = "~r~The darkzone is full, please wait.",
 }
 
 AddLanguage("en", my_language)
