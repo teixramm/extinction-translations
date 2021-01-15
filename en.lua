@@ -503,6 +503,9 @@ local my_language = {
 	["calibre_12"] = "Calibre 12",
 	["45_acp"] = ".45 ACP",
 	["5_56mm"] = "5.56mm",
+	rocket = "Rocket",
+	flare = "Flare",
+	grenade = "Grenade",
 	-- Food
 	["fish_1"] = "Largemouth Bass",
 	["fish_2"] = "Rainbow Trout",
@@ -682,6 +685,10 @@ local my_language = {
 	weapon_raycarbine = GetLabelText("WT_RAYCARBINE"),
 	weapon_rayminigun = GetLabelText("WT_RAYMINIGUN"),
 	weapon_stone_hatchet = GetLabelText("WT_SHATCHET"),
+	weapon_ceramicpistol = GetLabelText("WT_CERPST"),
+	weapon_navyrevolver = GetLabelText("WT_REV_NV"),
+	weapon_combatshotgun = GetLabelText("WT_CMBSHGN"),
+	weapon_militaryrifle = GetLabelText("WT_MLTRYRFL"),
 
 	bifta = "Bifta",
 	speeder = "Speeder",
@@ -1540,5 +1547,6 @@ Getting a new prestige gives you a special badge and new perks like better loot,
 	cannot_enter_darkzone_time = "~r~The darkzone is not open yet, wait.",
 	darkzone_is_full = "~r~The darkzone is full, please wait.",
 	darkzone_exit_allowed = "~r~Boats arrived to exit the darkzone, run if you want to escape.",
+}
 
 AddLanguage("en", my_language)
