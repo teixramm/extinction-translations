@@ -1515,7 +1515,7 @@ Getting a new prestige gives you a special badge and new perks like better loot,
 	dailymission_tradeitems = "Items traded",
 	dailymission_createbuyoffer = "Buy offers created",
 
-	dailymission_completed = "~g~You completed a daily mission!\n~b~+%s XP",
+	dailymission_completed = "~g~You completed a daily mission!\n~b~+%s XP\n~y~+1 Dungeon Key",
 
 	character_creation_mix_desc = "Select whether if the shape of your face is more influenced by the shape of your father/mother.",
 	character_creation_skin_desc = "Select whether if your skin is more influenced by the skin of your father/mother.",
