@@ -51,7 +51,6 @@ local my_language = {
 
 	-- perms
 	kick_member = "Kick members",
-	invite_someone = "Invitation",
 	edit_member = "Edit members",
 	edit_rank = "Edit ranks",
 	create_rank = "Create ranks",
@@ -1547,6 +1546,8 @@ Getting a new prestige gives you a special badge and new perks like better loot,
 	cannot_enter_darkzone_time = "~r~The darkzone is not open yet, wait.",
 	darkzone_is_full = "~r~The darkzone is full, please wait.",
 	darkzone_exit_allowed = "~r~Boats arrived to exit the darkzone, run if you want to escape.",
+
+	airdrop_taken_by = "^1%s has taken %s from the airdrop."
 }
 
 AddLanguage("en", my_language)
