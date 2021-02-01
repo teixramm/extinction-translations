@@ -1423,6 +1423,14 @@ Getting a new prestige gives you a special badge and new perks like better loot,
 
 	legendary_vehicle_pop = "~r~A legendary vehicle appeared on the map.",
 
+	-- poll one
+	poll1_q1 = "What kind of game server would you like to see?",
+
+	poll1_q1_a1 = "Battle Royale",
+	poll1_q1_a2 = "Private missions solo or with 1-4 friends (Payday / Heist / Hitman like)",
+	poll1_q1_a3 = "Race / Freeroam",
+	poll1_q1_a4 = "Murder / Horror game",
+
 	-- poll two
 	poll2_q1 = "Are you an English speaker and would you be interested in a GLife RP Server?",
 
