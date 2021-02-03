@@ -558,6 +558,9 @@ L'obtention d'un nouveau prestige vous donne un badge spécial et de nouveaux av
 	ff_18 = "Largeur du menton",
 	ff_19 = "Trou du menton",
 	ff_20 = "Epaisseur du cou",
+
+	available_death_effects = "Effets de mort disponibles",
+	available_modes = "Modes disponibles",
 }
 
 AddLanguage("fr", my_language)

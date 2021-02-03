@@ -1555,7 +1555,10 @@ Getting a new prestige gives you a special badge and new perks like better loot,
 	darkzone_is_full = "~r~The darkzone is full, please wait.",
 	darkzone_exit_allowed = "~r~Boats arrived to exit the darkzone, run if you want to escape.",
 
-	airdrop_taken_by = "^1%s has taken %s from the airdrop."
+	airdrop_taken_by = "^1%s has taken %s from the airdrop.",
+
+	available_death_effects = "Available death effects",
+	available_modes = "Available modes",
 }
 
 AddLanguage("en", my_language)
