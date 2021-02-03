@@ -564,7 +564,7 @@ local my_language = {
 	you_dropped_spikestrip = "Hai posizionato le ~g~strisce chiodate~w~.",
 	you_pickup_spikestrip = "Hai raccolto da terra le ~g~strisce chiodate~w~.",
 
-	you_have_been_killed_by = "Sei stato ucciso da ~r~%s (%s)",
+	you_have_been_killed_by = "Sei stato ucciso da ~r~%s",
 	kill_notif = "~m~Ucciso",
 	you_killed = "Hai ucciso ~r~%s~w~",
 	already_used_reset_only = "~r~Hai già resettato il tuo personaggio.\n~w~Solo i membri %s~w~ possono farlo più di una volta.",

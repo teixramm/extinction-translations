@@ -561,7 +561,7 @@ local my_language = {
 	you_dropped_spikestrip = "你掉了 ~g~尖刺~w~.",
 	you_pickup_spikestrip = "你接了 ~g~尖刺~w~.",
 
-	you_have_been_killed_by = "你被~r~%s (%s)杀了 ",
+	you_have_been_killed_by = "你被~r~%s 杀了 ",
 	kill_notif = "~m~被杀",
 	you_killed = "你杀了 ~r~%s~w~",
 	already_used_reset_only = "~r~您已经重置了角色.\n~w~只有 %s~w~ 会员可以重置自己的性格不止一次.",

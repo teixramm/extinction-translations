@@ -564,7 +564,7 @@ local my_language = {
     you_dropped_spikestrip = "Du tappade en ~ g ~ spikmatta ~ w ~.",
     you_pickup_spikestrip = "Du plockade upp en ~ g ~ spikmatta ~ w ~.",
 
-    you_have_been_killed_by = "Du har dödats av ~r~%s (%s)",
+    you_have_been_killed_by = "Du har dödats av ~r~%s",
     kill_notif = "~m~ Dödad",
     you_killed = "Du dödade ~r~%s~w~",
     already_used_reset_only = "~r~ Du har redan återställt din karaktär. \n~w~Endast %s~w~ medlemmar kan göra om sin karaktär mer än en gång.",

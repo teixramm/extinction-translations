@@ -524,7 +524,7 @@ local my_language = {
     you_dropped_spikestrip = "Du hast ein ~g~Nagelband~w~ platziert.",
     you_pickup_spikestrip = "Du hast ein ~g~Nagelband~w~ aufgehoben.",
  
-    you_have_been_killed_by = "Du wurdest durch ~r~%s (%s) getötet",
+    you_have_been_killed_by = "Du wurdest durch ~r~%s getötet",
     kill_notif = "~m~getötet",
     you_killed = "Du hast ~r~%s~w~ getötet",
     already_used_reset_only = "~r~Du hast deinen Charakter schon neu gemacht.\n~w~Nur %s~w~ Member können den Charakter mehr als einmal zurücksetzen.",

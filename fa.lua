@@ -558,7 +558,7 @@ local my_language = {
 	you_dropped_spikestrip = "شما یک ~g~نوار سنبله انذاختید~w~.",
 	you_pickup_spikestrip = "شما یک ~g~نوار سنبله انداختید~w~.",
 
-	you_have_been_killed_by = "شما به قتل رسیدید توسط ~r~%s (%s)",
+	you_have_been_killed_by = "شما به قتل رسیدید توسط ~r~%s",
 	kill_notif = "~m~کشته شده",
 	you_killed = "شما کشتید ~r~%s~w~",
 	already_used_reset_only = "~r~شما در حال حاضر شخصیت خود را تنظیم مجدد کرده اید.\n~w~فقط %s~w~ اعضا می توانند شخصیت خود را بیش از یک بار تکرار کنند.",

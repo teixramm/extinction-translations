@@ -524,7 +524,7 @@ local my_language = {
     you_dropped_spikestrip = "~g~스파이크~w~를 깔았습니다.",
     you_pickup_spikestrip = "~g~스파이크~w~를 주웠습니다.",
  
-    you_have_been_killed_by = "~r~%s (%s)에 의해 사망했습니다.",
+    you_have_been_killed_by = "~r~%s 에 의해 사망했습니다.",
     kill_notif = "~m~처치",
     you_killed = "~r~%s~w~을(를) 처치하였습니다",
     already_used_reset_only = "~r~이미 캐틱터를 초기화했습니다.\n~w~오직 %s~w~멤버만이 캐릭터를 두 번 이상 초기화가 가능합니다.",
