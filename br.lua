@@ -559,7 +559,7 @@ local my_language = {
 	you_dropped_spikestrip = "You dropped a ~g~spike strip~w~.",
 	you_pickup_spikestrip = "You picked up a ~g~spike strip~w~.",
 
-	you_have_been_killed_by = "Você foi morto ~r~%s (%s)",
+	you_have_been_killed_by = "Você foi morto ~r~%s",
 	kill_notif = "~m~Matou",
 	you_killed = "Você matou ~r~%s~w~",
 	already_used_reset_only = "~r~Você já resetou seu personagem.\n~w~Apenas apoiadores %s~w~ podem refazer seus personagens mais de uma vez.",

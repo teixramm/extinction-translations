@@ -524,7 +524,7 @@ local my_language = {
     you_dropped_spikestrip = "لقد وضعت ~g~شريط مسماري~w~.",
     you_pickup_spikestrip = "لقد اخذت ~g~شريط مسماري~w~.",
  
-    you_have_been_killed_by = "لقد قتلت من قبل ~r~%s (%s)",
+    you_have_been_killed_by = "لقد قتلت من قبل ~r~%s",
     kill_notif = "~m~قتل",
     you_killed = "لقد قتلت ~r~%s~w~",
     already_used_reset_only = "~r~لقد قمت بالفعل بإعادة تعيين شخصيتك.\n~w~فقط %s~w~ يمكن للأعضاء إعادة شخصياتهم أكثر من مرة.",
