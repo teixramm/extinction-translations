@@ -1559,6 +1559,8 @@ Getting a new prestige gives you a special badge and new perks like better loot,
 
 	available_death_effects = "Available death effects",
 	available_modes = "Available modes",
+
+	you_changed_your_ped_model = "~g~You successfully changed your ped model.",
 }
 
 AddLanguage("en", my_language)
