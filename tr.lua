@@ -89,14 +89,14 @@ local my_language = {
 	already_in_crew = "Zaten bir ekiptesin",
 	no_invitation = "Herhangi bir ekip davetin yok.",
 	left_crew = "Ekipten ayrıldın.",
-	permission_updated = " <C>~g~%s</C>~w~ Yetkileri güncellendi.",
+	permission_updated = " <C>~g~%s</C>~w~ Yetkisi güncellendi.",
 	incorrect_name = "~r~İsim formatı yanlış",
 	incorrect_rank_perm = "~r~Hata\n~w~Geçersiz rütbe ismi yada yetki seviyesi.",
 	warn_rank_limit = "~r~Rütbe sınırına ulaştın.",
 	create_rank_success = "~g~Başarılı\n~w~ <C>~b~%s</C>~w~ Yetki seviyesinde <C>~b~%s</C>~w~ rütbesi oluşturuldu" ,
 	crew_grant_warn = "~HUD_COLOUR_DEGEN_RED~Seninkinden yüksek bir yetki düzeyine sahip bir üyeyle etkileşimde bulunamazsın.",
-	you_sent_an_invitation = " <C>~g~%s</C>~w~ Kişisini ekibe davet edildi .",
-	you_received_an_invitation = "Bir ekibe katılmak için bir davet aldınız.\n~b~/%s kabul et.",
+	you_sent_an_invitation = " <C>~g~%s</C>~w~ ekibe davet edildi .",
+	you_received_an_invitation = "Bir ekibe katılmak için bir davet aldınız.\n~b~/%s accept.",
 	invitation_expired = "Davet süresi doldu",
 	crew_kick_success = "<C>~b~%s</C>~w~ Kişisini ekipten attın.",
 	first_rank_warning = "İlk sıra 'varsayılan' rütbedir.",
@@ -166,7 +166,7 @@ local my_language = {
 
 	player_too_far_to_interact = "~r~Etkileşime geçmek istediğin oyuncu senden çok uzakta.",
 	send_trade_invitation_to = " ~b~%s~w~ kişisine takas için davet yolladın.\n~b~Oyuncunun kabul etmesi bekleniyor.",
-	receive_invitation_from = "~b~%s~w~ kişisinden bir takas daveti aldın.\n~b~%s~b~ kişisinin takas davetini kabul etmek için ~w~/trade accept yaz.",
+	receive_invitation_from = "~b~%s~w~ kişisinden bir takas daveti aldın.\n~w~Kişinin takas davetini kabul etmek için ~b~/trade accept %s~b~ yaz.",
 
 	invalid_command_args = "Geçersiz komut argümanı: %s",
 	start_trade_command_help = "Başka bir oyuncuyla takas başlatın",
@@ -190,10 +190,10 @@ local my_language = {
 	trade_full_for_item = "~r~Takas iptal edildi, yeterli depolamaya sahip değilsin.",
 
 	press_e_to_loot_inv = "Yağmalamak için ~INPUT_CONTEXT~ tuşuna bas.",
-	press_e_to_interact_with = " ~HUD_COLOUR_NET_PLAYER27~Etkileşime geçmek için ~INPUT_CONTEXT~ tuşuna bas ~b~%s~HUD_COLOUR_NET_PLAYER27~.",
+	press_e_to_interact_with = " ~HUD_COLOUR_NET_PLAYER27~ Etkileşime geçmek için ~INPUT_CONTEXT~ tuşuna bas: ~b~%s~HUD_COLOUR_NET_PLAYER27~.",
 	press_e_to = "~b~%s~w~ için ~INPUT_CONTEXT~ tuşuna bas.",
 	press_e_to_open_catalog = "~g~Katalog~w~ için ~b~E~w~ tuşuna bas.",
-	this_person = "Kişi",
+	this_person = "Bu kişiyle",
 	the_shop = "Mağaza",
 	you_are_not_allowed_to_do_that = "~HUD_COLOUR_DEGEN_RED~Bunu yapmana izin yok.",
 
@@ -202,12 +202,12 @@ local my_language = {
 	not_right_ammo = "~r~Yanlış mühimmat kullanıyorsun, ~b~%s~w~ kullanmalısın.",
 	you_used_ammo = "~b~%s~w~ silahına ~b~x%s~w~ tane ~b~%s~w~ mühimmat koydunuz.",
 
-	choose_a_destination = "Bir ~b~konum seç",
+	choose_a_destination = "Bir ~b~konum seçmek",
 	open_your_chest = "Sandığı aç",
 	no_enough_money = "~r~Yeterli paran yok.",
 	you_paid = "~b~%s~w~ için ~g~$%s~w~ ödedin.",
 	you_paid_basket = "Sepetin için ~g~$%s~w~ ödedin.",
-	you_sell_basket = "~b~x%s~w~ eşya için ~g~$%s~w~ aldın.",
+	you_sell_basket = "~g~$%s~w~ eşya için ~b~x%s~w~ aldın.",
 
 	you_repaired_your_vehicle = "~g~Aracını tamir ettin.",
 	repairing_your_vehicle = "Aracın tamir ediliyor",
@@ -223,7 +223,7 @@ local my_language = {
 	main_post_bc = "Safe City Blaine County",
 	random_zone = "Rastgele konum (paraşütle iniş)",
 
-	this_item_is_equipped = "~r~Silah elinde, depolamak için kısyoldan kaldır.",
+	this_item_is_equipped = "~r~Silah elinde, depolamak için kısayoldan kaldır.",
 	only_in_safezone = "~r~Bunu güvenli bölge dışında yapamazsın.",
 	-- commerce stuff
 	feature_gold_only = "Bu özellik sadece ~y~gold üyeler~w~ içindir.",
@@ -289,7 +289,7 @@ local my_language = {
 	playtime_is = "~b~Extinction oynama süresi:\n~w~%s",
 	dont_spam = "^1Spam yapma!",
 
-	babygod_warning = "~b~Güvenli alandan ayrıldın, dokunulmaz olmak için güvenli bir alan bul!",
+	babygod_warning = "~b~Güvenli alandan ayrıldın, bir süre dokunulmazsın, yeni bir güvenli alan bul!",
 
 	-- LS Custom
 	modifications_classiques = "Klasik modifikasyonlar",
@@ -303,10 +303,10 @@ local my_language = {
 	extra = "Ekstralar",
 	klaxon = "Korna",
 	teinte_fenetre = "Cam renk tonu",
-	phares_xenons = "Xenon tepe ışıkları",
-	modele_plaque = "Plate model",
+	phares_xenons = "Xenon far",
+	modele_plaque = "Plaka modeli",
 	livery = "Çıkartmalar",
-	headlight_color = "Tepe ışıkları renkleri",
+	headlight_color = "Far renkleri",
 	wheel_type = "Tekerlek tipi",
 	primary_wheel_type = "Ön tekerlek tipi",
 	back_wheel_type = "Arka tekerlek tipi",
@@ -381,9 +381,9 @@ local my_language = {
 	sport = "Spor",
 	stock = "Stok",
 	street = "Sokak",
-	discount = "İndirim",
+	discount = "Kısık",
 	select_your_car = "Aracını seç",
-	select_car_custom = "Özelleştirmek istediğin aracı seç. Oklar arasındaki sayı, öğe anahtarıdır.",
+	select_car_custom = "Özelleştirmek istediğin aracı seç.",
 	loading_vehicle = "Araç oluşturuluyor",
 	invalid_vehicle = "~r~Geçersiz araç varlığı.",
 	invalid_vehicle_please_spawn = "~r~Geçersiz araç eşyası. Lütfen bir şey yapmaya çalışmadan önce onu bir kez oluşturun.",
@@ -427,9 +427,9 @@ local my_language = {
 	no_booster = "Herhangi bir boostera sahip değilsin.",
 
 	rank_expired = "~r~Satın alınan üyeliğin süresi bitti.",
-	supporter_role = "~g~Üyelik derecesi:~w~ %s",
+	supporter_role = "~g~Üyelik durumu:~w~ %s",
 	no_rank_warning = "Herhangi bir üyeliğe sahip değilsin.\n~r~Eğer bir üyelik aldıysan, fivem hesabını bağla.",
-	no_fivem_id = "FiveM hesabın oyunla bağlı değil .\n~r~FiveM hesabını oyunla bağla.",
+	no_fivem_id = "FiveM hesabın oyunla bağlı değil.\n~r~FiveM hesabını oyunla bağla.",
 	no_queue_warning = "Sırada herhangi bir paketin yok.\n~r~Biraz bekle yada /getRank komutunu kullan.",
 	package_sync_success = "~g~Paketlerin doğru şekilde senkronize edildi, eğlenmene bak!\n~w~Kullanılabilir komutlar: /getRank, /booster",
 
@@ -565,13 +565,13 @@ local my_language = {
 
 	you_have_been_killed_by = "Sen ~r~%s tarafından öldürüldün",
 	kill_notif = "~m~Öldürdün",
-	you_killed = "Sen ~r~%s~w~ öldürdün",
+	you_killed = "Sen ~r~%s~w~ adlı oyuncuyu öldürdün",
 	already_used_reset_only = "~r~Karakterini sıfırladın.\n~w~Yalnızca %s~w~ üyeleri birden fazla yapabilir.",
 	already_used_reset_only2 = "~r~Sen zaten yaptın.\n~w~Sadece %s~w~ üyeleri birden fazla yapabilir.",
 
 	hud_options = "HUD seçenekleri",
 	advanced_hud = "Gelişmiş HUD göster",
-	players = "Oyuncular",
+	players = "Oyuncular ",
 	health = "Sağlık",
 	player_menu = "Oyuncu menüsü",
 
@@ -1473,8 +1473,8 @@ Yeni bir prestij kazanmak size özel bir rozet ve daha iyi ganimet, yeni eşyala
 
 	marketplace_offer_does_not_exist = "~r~Bu teklif artık mevcut değil.",
 
-	marketplace_create_sell_offer = "g~$%s~w~ değerinde ~b~%sx tane %s için satış teklifi oluşturdun.",
-	marketplace_create_buy_offer = "g~$%s~w~ değerinde ~b~%sx tane %s için alış teklifi oluşturdun.",
+	marketplace_create_sell_offer = "~g~$%s~w~ değerinde ~b~%sx tane %s için satış teklifi oluşturdun.",
+	marketplace_create_buy_offer = "~g~$%s~w~ değerinde ~b~%sx tane %s için alış teklifi oluşturdun.",
 
 	i_want_to_enter_in_my_property = "Sığınağa girmek istiyorum.",
 	i_want_to_exit_private_world = "Herkese açık dünyaya dönmek istiyorum.",
