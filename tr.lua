@@ -15,7 +15,7 @@ local my_language = {
 	bind_weapon_command = "Silah koymak için kısayol %s",
 	kevlar_broke = "~r~AHH!~n~~w~Zırhın kırıldı.",
 	inventory_command = "Envanteri aç",
-	press_enter_to_join = "Başlamak için ~g~ENTER~w~ tuşuna bas.",
+	press_enter_to_join = "Oynamak için ~g~ENTER~w~ butonuna bas.",
 	new_character = "Yeni karakter",
 	survivor = "Hayatta kalan",
 	right = "Sağ",
@@ -32,7 +32,7 @@ local my_language = {
 	you_found_nothing = " ~g~Bir şey~w~ bulamadın.",
 	press_e_to_loot = "Yağmalamak için ~b~[E]~w~ tuşuna bas",
 	full_for_item = "~r~Bu eşya için yeterli alan yok.",
-	put_item_container = " ~g~x%s~w~ %s~w~ konteynerinize koydunuz.",
+	put_item_container = " ~g~x%s~w~ %s~w~ konteynerine koydun.",
 	take_item_container = " ~g~x%s~w~ %s~w~ konteynerden aldın.",
 	not_allowed_here = "~r~Bunu burada yapmana izin yok.",
 	cant_store_moving_veh = "~r~Hareket halindeki bir aracı depolayamazsın.",
@@ -42,7 +42,7 @@ local my_language = {
 	selected_target_message = "Hedef seçildi:~n~%s~n~~r~İptal etmek için ~b~Y~r~ tuşuna basın~n~~r~Devam etmek için ~g~X~r~ tuşuna basın.",
 	target_you = "~b~SEN",
 	target_screen = "~g~Görüntüle",
-	take_this_path = "Bu yoldan gitmek için",
+	take_this_path = "Işınlayıcıyı kullanmak",
 
 	-- hud
 	default_hud = "Default HUD",
@@ -157,7 +157,7 @@ local my_language = {
 	-- health
 	inconscious = "Bilinçsiz",
 	doing_something = "Bir şeyler yap",
-	time_before_respawn = "Yeniden doğma bekleyişi",
+	time_before_respawn = "Yeniden doğma süresi",
 	you_died = "~r~Öldün.",
 	healing_wounds = "Yaralar iyileştiriliyor",
 	already_doing_something = "~r~Zaten bir şeyler yapıyorsun.",
@@ -197,7 +197,7 @@ local my_language = {
 	the_shop = "Mağaza",
 	you_are_not_allowed_to_do_that = "~HUD_COLOUR_DEGEN_RED~Bunu yapmana izin yok.",
 
-	no_weapon = "~r~Elinde herhangi bir silah yok .", 
+	no_weapon = "~r~Elinde herhangi bir silah yok.", 
 	no_need_ammo = "~r~Bu silahla herhangi bir mühimmat kullanmana gerek yok.",
 	not_right_ammo = "~r~Yanlış mühimmat kullanıyorsun, ~b~%s~w~ kullanmalısın.",
 	you_used_ammo = "~b~%s~w~ silahına ~b~x%s~w~ tane ~b~%s~w~ mühimmat koydunuz.",
@@ -205,9 +205,9 @@ local my_language = {
 	choose_a_destination = "Bir ~b~konum seçmek",
 	open_your_chest = "Sandığı aç",
 	no_enough_money = "~r~Yeterli paran yok.",
-	you_paid = "~b~%s~w~ için ~g~$%s~w~ ödedin.",
+	you_paid = "~g~$%s~w~ ödeyerek ~b~%s~w~ satın aldın.",
 	you_paid_basket = "Sepetin için ~g~$%s~w~ ödedin.",
-	you_sell_basket = "~g~$%s~w~ eşya için ~b~x%s~w~ aldın.",
+	you_sell_basket = "~g~$%s~w~fiyatına ~b~x%s~w~ eşya sattın.",
 
 	you_repaired_your_vehicle = "~g~Aracını tamir ettin.",
 	repairing_your_vehicle = "Aracın tamir ediliyor",
@@ -274,8 +274,8 @@ local my_language = {
 	reward_for_contract = "Ödül Avcısı! ~b~%s~w~ adlı oyuncuyu öldürdüğün için ~g~$%s~w~ aldın.",
 
 	hey_can_help_you = "Hey, nasıl yardımcı olabilirim?",
-	i_want_to_buy_items = "Eşya almak istiyorum",
-	i_want_to_sell_items = "Eşya satmak istiyorum",
+	i_want_to_buy_items = "Esya almak istiyorum",
+	i_want_to_sell_items = "Esya satmak istiyorum",
 
 	press_context_or_jump_to_get_up = "~b~Kalkmak için~w~ ~INPUT_CONTEXT~ yada ~INPUT_JUMP~ tuşuna bas.",
 	server_restart_warning = "Sunucu yeniden başlatılacak..",
@@ -527,7 +527,7 @@ local my_language = {
 	cat_meat = "Raw cat",
 	rare_fish = "Rare fish",
 
-	mask = "Mask",
+	mask = "Maske",
 	malette = "Suitcase",
 	malette_metal = "Metal suitcase",
 	ciseaux = "Scissors",
@@ -1406,9 +1406,9 @@ local my_language = {
 	prestige_info_cmd = [[^3Prestij level sistemi^7
 Şuanki prestijin ^4%s^7 ve levelin ^5%s^7.
 
-Maksimum seviyeye (% s) ulaşırsanız, prestij almayı seçebilir ve seviye 0'a dönmek için XP ilerlemenizi yeniden başlatabilirsiniz.
+Maksimum seviyeye (% s) ulaşırsan, prestij almayı seçebilir ve seviye 0'a dönmek için XP ilerlemeni yeniden başlatabilirsin.
 Yeni bir prestij kazanmak size özel bir rozet ve daha iyi ganimet, yeni eşyalar, daha fazla para veya daha yüksek taşıma kapasitesi gibi yeni avantajlar sağlar.
-^2Bir prestij almak ve 0 seviyeye dönmek istiyorsanız ^1/setprestige^2 yazın
+^2Bir prestij almak ve 0 seviyeye dönmek istiyorsan ^1/setprestige^2 yazın
 ]],
 	new_prestige = "Yeni bir prestij açtın!\n~g~Şuanda %s prestije sahipsin",
 	cant_store_event_veh = "~r~Özel araçları depolayamazsın.",
@@ -1418,7 +1418,7 @@ Yeni bir prestij kazanmak size özel bir rozet ve daha iyi ganimet, yeni eşyala
 	you_disconnected_in_combat = "💀 Savaş modunda bağlantınız kesildi, öldün.",
 
 	not_enough_prestige_points = "~r~Yeterli prestij puanınız yok.",
-	you_reached_max_prestige_stats_rank = "~r~Bu prestij yükseltmesi için maksimum rütbeye ulaştınız.",
+	you_reached_max_prestige_stats_rank = "~r~Bu prestij yükseltmesi için maksimum rütbeye ulaştın.",
 	new_prestige_stats_upgrade = "~b~%s~w~\n~g~%s/%s güncelledin",
 
 	legendary_vehicle_pop = "~r~Haritada efsanevi bir araç belirdi.",
@@ -1454,7 +1454,7 @@ Yeni bir prestij kazanmak size özel bir rozet ve daha iyi ganimet, yeni eşyala
 
 	already_using_a_seringue_booster = "~r~Bunu zaten kullandın.",
 	seringue_effect_done = "~b~Şırınga efekti bitti.",
-	you_injected_a_seringue_boost = "Kanına ~b~şırınga~w~ enjekte ettin.",
+	you_injected_a_seringue_boost = "~b~Şırınga~w~ enjekte ettin.",
 
 	put_item_permission = "Eşyaları koy",
 	take_item_permission = "Eşyaları al",
@@ -1464,17 +1464,17 @@ Yeni bir prestij kazanmak size özel bir rozet ve daha iyi ganimet, yeni eşyala
 	preferred_badge_set = "~g~Tercih edilen rozetini~w~ ayarladın.",
 	preferred_badge_not_set = "~r~Tercih edilen rozet ayarlanamıyor.",
 
-	marketplace_received_money_sales = "~b~%s~w~ satışından ~g~$%s~w~ from elde ettin.",
+	marketplace_received_money_sales = "~g~$%s~w~ kazancı ~b~%s~w~ satıştan elde ettin.",
 	marketplace_no_sales = "~r~Hiçbir şey satmadın.",
-	marketplace_you_paid_for = "~b~%s~w~ için ~g~$%s~w~ ödedin.",
+	marketplace_you_paid_for = "~g~$%s~w~ fiyatında ~b~%s~w~ aldın.",
 
 	deleted_sell_offer = "~b~Satış teklifini sildin.",
 	deleted_buy_offer = "~b~Satış teklifini sildin.",
 
 	marketplace_offer_does_not_exist = "~r~Bu teklif artık mevcut değil.",
 
-	marketplace_create_sell_offer = "~g~$%s~w~ değerinde ~b~%sx tane %s için satış teklifi oluşturdun.",
-	marketplace_create_buy_offer = "~g~$%s~w~ değerinde ~b~%sx tane %s için alış teklifi oluşturdun.",
+	marketplace_create_sell_offer = "~b~%sx %s ~w~için ~g~$%s~w~ değerinde satış teklifi oluşturdun.", 
+	marketplace_create_buy_offer = "~b~%sx %s ~w~için ~g~$%s~w~ değerinde alış yaptın.",
 
 	i_want_to_enter_in_my_property = "Sığınağa girmek istiyorum.",
 	i_want_to_exit_private_world = "Herkese açık dünyaya dönmek istiyorum.",
@@ -1487,7 +1487,7 @@ Yeni bir prestij kazanmak size özel bir rozet ve daha iyi ganimet, yeni eşyala
 	dungeon_party_no_longer_exists = "~r~Bu zindan partisi artık yok.",
 	dungeon_invitation_expired = "~r~Zindan partisi davetinin süresi doldu.",
 	dungeon_join_party = "~g~Zindan partisine katıldın.",
-	dungeon_too_late_for_invitation = "~r~Çok geç kaldın. Oyunun bu durumunda zindana katılamazsın.",
+	dungeon_too_late_for_invitation = "~r~Çok geç kaldın. Oyunun bu aşamasında zindana katılamazsın.",
 	dungeon_already_invited_this_player = "~r~Bu oyuncuyu zaten davet ettin.",
 	dungeon_invitation_received = "~b~%s~w~ kişisinden zindan partisine davet aldın.%s~w~ partisine katılmak için ~g~/joinDungeon \nyaz.",
 	dungeon_invitation_sent = "~g~%s~w~ kişisini zindan partisine davet ettin.",
@@ -1524,7 +1524,7 @@ Yeni bir prestij kazanmak size özel bir rozet ve daha iyi ganimet, yeni eşyala
 
 	dailymission_completed = "~g~Günlük görevleri tamamladın!\n~b~+%s XP\n~y~+1 Zindan anahtarı",
 
-	character_creation_mix_desc = "Yüzünüzün şeklinin annenizin/babanızın şeklinden ne kadar etkileneceğini seçin..",
+	character_creation_mix_desc = "Yüzünüzün şeklinin annenizin/babanızın şeklinden ne kadar etkileneceğini seçin.",
 	character_creation_skin_desc = "Cildinizin annenizin/babanızın cildinden ne kadar etkileneceğini seçin.",
 
 	ff_1 = "Burun genişliği",
@@ -1561,7 +1561,7 @@ Yeni bir prestij kazanmak size özel bir rozet ve daha iyi ganimet, yeni eşyala
 	available_modes = "Mevcut modlar",
 
 	you_changed_your_ped_model = "~g~Ped modelini başarıyla değiştirdin.",
-	i_want_to_change_my_ped = "Ped modelimi değiştirmek istiyorum",
+	i_want_to_change_my_ped = "Farklı bir ped modeli kullan",
 }
 
 AddLanguage("tr", my_language)
