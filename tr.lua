@@ -1,5 +1,5 @@
 local my_language = {
-	give_vehicle = " ~b~%s~w~ envanterine eklendi.",
+	give_vehicle = " ~b~%s~w~ Envanterine eklendi.",
 	store_vehicle_command = "Sürmekte olduğunuz aracı saklayın",
 	no_entity_vehicle = "~r~Araç mevcut değil veya sizden çok uzak.",
 	no_entity_vehicle_id = "~r~Araç herhangi bir kimliğe bağlı değildir, saklayamazsınız.",
@@ -15,7 +15,7 @@ local my_language = {
 	bind_weapon_command = "Silah koymak için kısayol %s",
 	kevlar_broke = "~r~AHH!~n~~w~Zırhın kırıldı.",
 	inventory_command = "Envanteri aç",
-	press_enter_to_join = "Oynamak için ~g~ENTER~w~ butonuna bas.",
+	press_enter_to_join = "Oynamak için ~g~ENTER~w~ bas.",
 	new_character = "Yeni karakter",
 	survivor = "Hayatta kalan",
 	right = "Sağ",
@@ -159,7 +159,7 @@ local my_language = {
 	doing_something = "Bir şeyler yap",
 	time_before_respawn = "Yeniden doğma süresi",
 	you_died = "~r~Öldün.",
-	healing_wounds = "Yaralar iyileştiriliyor",
+	healing_wounds = "İyileşiyorsun...",
 	already_doing_something = "~r~Zaten bir şeyler yapıyorsun.",
 	you_have_been_healed = "~g~İyileştirildin.",
 	you_respawned = "~g~Yeniden doğdun.", 
@@ -205,9 +205,9 @@ local my_language = {
 	choose_a_destination = "Bir ~b~konum seçmek",
 	open_your_chest = "Sandığı aç",
 	no_enough_money = "~r~Yeterli paran yok.",
-	you_paid = "~g~$%s~w~ ödeyerek ~b~%s~w~ satın aldın.",
+	you_paid = "~g~$%s~w~ Ödeyerek ~b~%s~w~ Satın aldın.",
 	you_paid_basket = "Sepetin için ~g~$%s~w~ ödedin.",
-	you_sell_basket = "~g~$%s~w~fiyatına ~b~x%s~w~ eşya sattın.",
+	you_sell_basket = "~g~$%s~w~ fiyatına ~b~x%s~w~ eşya sattın.",
 
 	you_repaired_your_vehicle = "~g~Aracını tamir ettin.",
 	repairing_your_vehicle = "Aracın tamir ediliyor",
@@ -228,7 +228,7 @@ local my_language = {
 	-- commerce stuff
 	feature_gold_only = "Bu özellik sadece ~y~gold üyeler~w~ içindir.",
 	feature_diamond_only = "Bu özellik sadece ~b~diamond üyeler~w~ içindir.",
-	you_turned_into = " ~g~%s~w~ pedine dönüştün.",
+	you_turned_into = " ~g~%s~w~ Pedine dönüştün.",
 	wait_between_transformation = "~r~Değişim modunu tekrar kullanmadan önce lütfen biraz bekleyin.",
 	wait_between = "~r~Lütfen bunu tekrar yapmadan önce biraz bekleyin.",
 	available_morphs = "Mevcut değişimler",
@@ -268,8 +268,8 @@ local my_language = {
 	custom_dealer = "LS Custom",
 	gun_dealer = "Silah Satıcısı",
 
-	bounty_created = "~b~%s~w~ adlı oyuncunun başına  ~g~$%s~w~ ödül koydun.",
-	contract_success = "~r~%s~w~adlı oyuncunun başına koyduğunuz ödül ~b~%s~w~kişisine gönderildi.",
+	bounty_created = "~b~%s~w~ Adlı oyuncunun başına  ~g~$%s~w~ ödül koydun.",
+	contract_success = "~r~%s~w~ Adlı oyuncunun başına koyduğunuz ödül ~b~%s~w~ Kişisine gönderildi.",
 	a_contract_on_your_head = "~r~Başında bir ödül vardı. Katiliniz ödülü aldı.",
 	reward_for_contract = "Ödül Avcısı! ~b~%s~w~ adlı oyuncuyu öldürdüğün için ~g~$%s~w~ aldın.",
 
@@ -391,7 +391,7 @@ local my_language = {
 	car_custom_saved = "~g~Araç modifikasyonların kaydedildi.",
 
 	-- Character creation
-	character_creation = "Karakter oluşturma",
+	character_creation = "Karakter yaratma",
 	confirm = "Onayla",
 	start_playing = "Oynamaya başla",
 	appearance = "Görünüm",
@@ -412,9 +412,9 @@ local my_language = {
 
 	-- kits
 	kit_does_not_exist = "~r~Bu kit mevcut değil",
-	kit_needs_rank = "~r~%s~w~ rütbesine sahip değilsin.",
+	kit_needs_rank = "~r~%s~w~ Üyeliğine sahip değilsin.",
 	wait_before_using_kit = "Lütfen ~r~%s~w~ kitini kullanmadan önce bekleyin.",
-	received_kit = "~b~%s~w~ kitini aldın.",
+	received_kit = "~b~%s~w~ Kitini aldın.",
 	no_kit = "Herhangi bir kite sahip değilsin.",
 
 	unable_to_find_booster = "Bu id'ye ait bir booster bulunamıyor.",
@@ -427,15 +427,15 @@ local my_language = {
 	no_booster = "Herhangi bir boostera sahip değilsin.",
 
 	rank_expired = "~r~Satın alınan üyeliğin süresi bitti.",
-	supporter_role = "~g~Üyelik durumu:~w~ %s",
-	no_rank_warning = "Herhangi bir üyeliğe sahip değilsin.\n~r~Eğer bir üyelik aldıysan, fivem hesabını bağla.",
+	supporter_role = "~g~Üyelik durumu: ~w~ %s",
+	no_rank_warning = "Herhangi bir üyeliğe sahip değilsin.\n~r~Eğer bir üyelik aldıysan, FiveM hesabını bağla.",
 	no_fivem_id = "FiveM hesabın oyunla bağlı değil.\n~r~FiveM hesabını oyunla bağla.",
 	no_queue_warning = "Sırada herhangi bir paketin yok.\n~r~Biraz bekle yada /getRank komutunu kullan.",
 	package_sync_success = "~g~Paketlerin doğru şekilde senkronize edildi, eğlenmene bak!\n~w~Kullanılabilir komutlar: /getRank, /booster",
 
-	level_required = "%s seviyesine sahip olmalısın.",
-	rank_required = "%s üyeliğine sahip olmalısın.",
-	level_required_2 = "~r~%s seviyesine sahip olmalısın.",
+	level_required = "%s Seviyesine sahip olmalısın.",
+	rank_required = "%s Üyeliğine sahip olmalısın.",
+	level_required_2 = "~r~%s Seviyesine sahip olmalısın.",
 
 	updated_deathmessage = "~g~Öldürme mesajını güncelledin.",
 	updated_deatheffect = "~g~Öldürme efektini güncelledin.",
@@ -563,11 +563,11 @@ local my_language = {
 	you_dropped_spikestrip = "~g~Dikenli tel~w~ koydun.",
 	you_pickup_spikestrip = "~g~Dikenli tel~w~ aldın.",
 
-	you_have_been_killed_by = "Sen ~r~%s tarafından öldürüldün",
+	you_have_been_killed_by = "~r~%s Tarafından öldürüldün",
 	kill_notif = "~m~Öldürdün",
-	you_killed = "Sen ~r~%s~w~ adlı oyuncuyu öldürdün",
-	already_used_reset_only = "~r~Karakterini sıfırladın.\n~w~Yalnızca %s~w~ üyeleri birden fazla yapabilir.",
-	already_used_reset_only2 = "~r~Sen zaten yaptın.\n~w~Sadece %s~w~ üyeleri birden fazla yapabilir.",
+	you_killed = "~r~%s~w~ Adlı oyuncuyu öldürdün",
+	already_used_reset_only = "~r~Zaten Karakterini sıfırladın.\n~w~Yalnızca %s~w~ üyeler birden fazla yapabilir.",
+	already_used_reset_only2 = "~r~Zaten bu işlemi yaptın.\n~w~Sadece %s~w~ üyeler birden fazla yapabilir.",
 
 	hud_options = "HUD seçenekleri",
 	advanced_hud = "Gelişmiş HUD göster",
@@ -1390,7 +1390,7 @@ local my_language = {
 	airdrop_coming = "~r~Airdrop geliyor, haritanı kontrol et.",
 	killed_by_cheater = "~r~Bir hileci tarafından öldürüldün.\n~w~Hileciyi sunucudan attık ve ölümünü iptal ettik.",
 
-	corrupted_vehicle = "~r~Bu araç bozulmuş ve geçmişte kopyalanmış, envanterinden kaldırıldı. Dolandırıldıysan özür dilerim.",
+	corrupted_vehicle = "~r~Bu araç bozulmuş ve geçmişte kopyalanmış, envanterinden kaldırıldı. Dolandırıldıysan özür dileriz :(",
 
 	-- Discord
 	join_discord_for_kit = "Discordumuza katıl ve ücretsiz discord kitini al!\n~g~discord.gg/gtalife",
@@ -1419,9 +1419,9 @@ Yeni bir prestij kazanmak size özel bir rozet ve daha iyi ganimet, yeni eşyala
 
 	not_enough_prestige_points = "~r~Yeterli prestij puanınız yok.",
 	you_reached_max_prestige_stats_rank = "~r~Bu prestij yükseltmesi için maksimum rütbeye ulaştın.",
-	new_prestige_stats_upgrade = "~b~%s~w~\n~g~%s/%s güncelledin",
+	new_prestige_stats_upgrade = "~b~%s~w~\n~g~%s/%s Güncelledin",
 
-	legendary_vehicle_pop = "~r~Haritada efsanevi bir araç belirdi.",
+	legendary_vehicle_pop = "~r~Haritada efsanevi bir araç belirdi!",
 
 	-- poll one
 	poll1_q1 = "Ne tür bir oyun sunucusu görmek istersiniz?",
@@ -1443,7 +1443,7 @@ Yeni bir prestij kazanmak size özel bir rozet ve daha iyi ganimet, yeni eşyala
 	gcoins_something_went_wrong = "~r~Bir şeyler yanlış gitti.",
 	you_bought_with_gcoins = "~b~%s GCoinsle~w~ ~g~%s~w~ aldın.",
 
-	equiping_armor = "Zırh kullanılıyor",
+	equiping_armor = "Zırh kullanılıyor...",
 
 	toggle_mute_player = "Sessizliği Aç/Kapat",
 	you_muted_this_player = "~b~Oyuncuyu susturdun.",
@@ -1452,7 +1452,7 @@ Yeni bir prestij kazanmak size özel bir rozet ve daha iyi ganimet, yeni eşyala
 	already_purchased = "~r~Bu ürünü zaten satın aldın.",
 	weapon_camo_preview = "Silah temel modeli gösteriliyor, bazı eklentiler eksik. Gösterimden çıkmak için \n~INPUT_CELLPHONE_CANCEL~.",
 
-	already_using_a_seringue_booster = "~r~Bunu zaten kullandın.",
+	already_using_a_seringue_booster = "~r~Şırınga zaten aktif.",
 	seringue_effect_done = "~b~Şırınga efekti bitti.",
 	you_injected_a_seringue_boost = "~b~Şırınga~w~ enjekte ettin.",
 
@@ -1461,36 +1461,36 @@ Yeni bir prestij kazanmak size özel bir rozet ve daha iyi ganimet, yeni eşyala
 	put_money_permission = "Parayı koy",
 	take_money_permission = "Para al",
 
-	preferred_badge_set = "~g~Tercih edilen rozetini~w~ ayarladın.",
+	preferred_badge_set = "~g~Tercih edilen rozeti~w~ ayarladın.",
 	preferred_badge_not_set = "~r~Tercih edilen rozet ayarlanamıyor.",
 
-	marketplace_received_money_sales = "~g~$%s~w~ kazancı ~b~%s~w~ satıştan elde ettin.",
+	marketplace_received_money_sales = "~g~$%s~w~ Kazancı ~b~%s~w~ Satıştan elde ettin.",
 	marketplace_no_sales = "~r~Hiçbir şey satmadın.",
-	marketplace_you_paid_for = "~g~$%s~w~ fiyatında ~b~%s~w~ aldın.",
+	marketplace_you_paid_for = "~g~$%s~w~ Fiyatında ~b~%s~w~ aldın.",
 
 	deleted_sell_offer = "~b~Satış teklifini sildin.",
 	deleted_buy_offer = "~b~Satış teklifini sildin.",
 
 	marketplace_offer_does_not_exist = "~r~Bu teklif artık mevcut değil.",
 
-	marketplace_create_sell_offer = "~b~%sx %s ~w~için ~g~$%s~w~ değerinde satış teklifi oluşturdun.", 
-	marketplace_create_buy_offer = "~b~%sx %s ~w~için ~g~$%s~w~ değerinde alış yaptın.",
+	marketplace_create_sell_offer = "~b~%sx %s ~w~İçin ~g~$%s~w~ Değerinde satış teklifi oluşturdun.", 
+	marketplace_create_buy_offer = "~b~%sx %s ~w~İçin ~g~$%s~w~ Değerinde alış yaptın.",
 
-	i_want_to_enter_in_my_property = "Sığınağa girmek istiyorum.",
+	i_want_to_enter_in_my_property = "Takım deposuna girmek istiyorum.",
 	i_want_to_exit_private_world = "Herkese açık dünyaya dönmek istiyorum.",
 	public_world = "Herkese açık dünya",
 	private_world = "Özel dünya",
 
 	dungeon_no_more_time = "~r~Çok yavaştın. Zindan kapatıldı.",
-	dungeon_participant_left = "~r~%s zindandan ayrıldı.",
+	dungeon_participant_left = "~r~%s Zindandan ayrıldı.",
 	started_dungeon_party = "~b~Bir zindan odası oluşturdun.",
 	dungeon_party_no_longer_exists = "~r~Bu zindan partisi artık yok.",
 	dungeon_invitation_expired = "~r~Zindan partisi davetinin süresi doldu.",
 	dungeon_join_party = "~g~Zindan partisine katıldın.",
 	dungeon_too_late_for_invitation = "~r~Çok geç kaldın. Oyunun bu aşamasında zindana katılamazsın.",
 	dungeon_already_invited_this_player = "~r~Bu oyuncuyu zaten davet ettin.",
-	dungeon_invitation_received = "~b~%s~w~ kişisinden zindan partisine davet aldın.%s~w~ partisine katılmak için ~g~/joinDungeon \nyaz.",
-	dungeon_invitation_sent = "~g~%s~w~ kişisini zindan partisine davet ettin.",
+	dungeon_invitation_received = "~b~%s~w~ Oyuncusundan zindan partisine davet aldın.%s~w~ partisine katılmak için ~g~/joinDungeon \nyaz.",
+	dungeon_invitation_sent = "~g~%s~w~ Oyuncusunu zindan partisine davet ettin.",
 
 	dailymission_playerkill = "Öldürülen oyuncular",
 	dailymission_zombiekill = "Öldürülen zombiler",
@@ -1524,7 +1524,7 @@ Yeni bir prestij kazanmak size özel bir rozet ve daha iyi ganimet, yeni eşyala
 
 	dailymission_completed = "~g~Günlük görevleri tamamladın!\n~b~+%s XP\n~y~+1 Zindan anahtarı",
 
-	character_creation_mix_desc = "Yüzünüzün şeklinin annenizin/babanızın şeklinden ne kadar etkileneceğini seçin.",
+	character_creation_mix_desc = "Yüzünüzün annenizin/babanızın şeklinden ne kadar etkileneceğini seçin.",
 	character_creation_skin_desc = "Cildinizin annenizin/babanızın cildinden ne kadar etkileneceğini seçin.",
 
 	ff_1 = "Burun genişliği",
