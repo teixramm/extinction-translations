@@ -1562,6 +1562,35 @@ Getting a new prestige gives you a special badge and new perks like better loot,
 
 	you_changed_your_ped_model = "~g~You successfully changed your ped model.",
 	i_want_to_change_my_ped = "I want to change my ped",
+
+	i_want_to_enter_a_dungeon = "I want to enter in a dungeon",
+	dungeon_list = "Dungeon list",
+	dungeon = "Dungeon",
+	dungeons = "Dungeons",
+	you_need_x_keys = "You need ~y~%s dungeon keys~w~ to enter the dungeon.",
+	not_enough_dungeon_keys = "You need ~y~%s dungeon keys~w~ to enter this dungeon.",
+	time_remaining = "Time remaining",
+	you_killed_the_dungeon_boss = "~r~You killed the dungeon boss.",
+	dungeon_kill_final_boss = "You are in the final room. Kill the boss to get the treasure.",
+
+	poll4_q1 = "What do you expect from the next season?",
+	poll4_q1_a4 = "New world event like airdrops, zone capture etc.",
+	poll4_q1_a1 = "More PvE content like dungeons",
+	poll4_q1_a2 = "More games like casino / races",
+	poll4_q1_a3 = "PvP content",
+
+	poll4_q2 = "Would you like to have more ranked/tournament modes?",
+	poll4_q2_a1 = "Yes",
+	poll4_q2_a2 = "No",
+
+	poll4_q3 = "Would you like to have snipers in shops?",
+	poll4_q3_a1 = "Yes",
+	poll4_q3_a2 = "No",
+
+	poll4_q4 = "What do you enjoy the most on Extinction?",
+	poll4_q4_a1 = "PvP",
+	poll4_q4_a2 = "PvE",
+	poll4_q4_a3 = "Trading",
 }
 
 AddLanguage("en", my_language)

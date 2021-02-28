@@ -561,6 +561,25 @@ L'obtention d'un nouveau prestige vous donne un badge spécial et de nouveaux av
 
 	available_death_effects = "Effets de mort disponibles",
 	available_modes = "Modes disponibles",
+
+	poll4_q1 = "Qu'attendez-vous de la nouvelle saison?",
+	poll4_q1_a4 = "Plus d'event dans le monde comme les airdrops, les captures de zone etc.",
+	poll4_q1_a1 = "Plus de contenu PvE comme les donjons",
+	poll4_q1_a2 = "Plus de jeux comme le casino / courses",
+	poll4_q1_a3 = "Du contenu PvP",
+
+	poll4_q2 = "Voulez-vous plus de tournois et mode ranked?",
+	poll4_q2_a1 = "Oui",
+	poll4_q2_a2 = "Non",
+
+	poll4_q3 = "Voulez-vous voir les snipers dans les magasins?",
+	poll4_q3_a1 = "Oui",
+	poll4_q3_a2 = "Non",
+
+	poll4_q4 = "Qu'aimez-vous le plus sur Extinction?",
+	poll4_q4_a1 = "PvP",
+	poll4_q4_a2 = "PvE",
+	poll4_q4_a3 = "Echanges",
 }
 
 AddLanguage("fr", my_language)
