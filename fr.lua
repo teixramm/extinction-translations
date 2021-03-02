@@ -580,6 +580,33 @@ L'obtention d'un nouveau prestige vous donne un badge spécial et de nouveaux av
 	poll4_q4_a1 = "PvP",
 	poll4_q4_a2 = "PvE",
 	poll4_q4_a3 = "Echanges",
+
+	dungeon_no_more_time = "~r~Vous avez été trop lent. Le donjon est fer,é.",
+	dungeon_participant_left = "~r~%s a quitté le donjon.",
+	started_dungeon_party = "~b~Vous avez créé une partie pour un donjon.",
+	dungeon_party_no_longer_exists = "~r~Cette partie de donjon n'existe plus.",
+	dungeon_invitation_expired = "~r~L'invitation pour ce donjon n'existe plus.",
+	dungeon_join_party = "~g~Vous avez rejoint une partie pour un donjon.",
+	dungeon_too_late_for_invitation = "~r~Vous avez été trop lent. Vous ne pouvez pas rejoindre un donjon en plein jeu.",
+	dungeon_already_invited_this_player = "~r~Vous avez déjà invité ce joueur.",
+	dungeon_invitation_received = "Vous avez reçu une invitation de ~b~%s~w~ pour rejoindre son donjon.\nTapez ~g~/dungeon join %s~w~ pour rejoindre la partie.",
+	dungeon_invitation_sent = "Vous avez invité ~g~%s~w~ dans votre partie donjon.",
+
+	i_want_to_enter_a_dungeon = "Je souhaite rentrer dans un donjon",
+	dungeon_list = "Liste des donjons",
+	dungeon = "Donjon",
+	dungeons = "Donjons",
+	you_need_x_keys = "Vous avez besoin de ~y~%s clés de donjon~w~ pour rentrer dans ce donjon",
+	time_remaining = "Temps restant",
+	you_killed_the_dungeon_boss = "~r~Vous avez tué le boss du donjon.",
+	dungeon_kill_final_boss = "Vous êtes dans la salle finale. Tuez le boss pour récupérer son trésor.",
+
+	dungeon_died_remaining = "Vous êtes mort, il vous reste ~r~%s~w~ vie(s).",
+	dungeon_died = "~r~Vous n'avez plus aucune vie, le donjon se termine. Vous êtes mort.",
+	dungeon_already_in_party = "~r~Vous êtes déjà dans une partie de donjon.\n~w~Tapez /dungeon quit pour quitter.",
+	dungeon_does_not_exist = "~r~Ce donjon n'existe pas.",
+	dungeon_ready = "~g~%s~w~ est prêt.",
+	dungeon_not_ready = "~r~%s~w~ n'est pas prêt.",
 }
 
 AddLanguage("fr", my_language)

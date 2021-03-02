@@ -1489,7 +1489,7 @@ Yeni bir prestij kazanmak size özel bir rozet ve daha iyi ganimet, yeni eşyala
 	dungeon_join_party = "~g~Zindan partisine katıldın.",
 	dungeon_too_late_for_invitation = "~r~Çok geç kaldın. Oyunun bu aşamasında zindana katılamazsın.",
 	dungeon_already_invited_this_player = "~r~Bu oyuncuyu zaten davet ettin.",
-	dungeon_invitation_received = "~b~%s~w~ Oyuncusundan zindan partisine davet aldın.%s~w~ partisine katılmak için ~g~/joinDungeon \nyaz.",
+	dungeon_invitation_received = "~b~%s~w~ Oyuncusundan zindan partisine davet aldın.%s~w~ partisine katılmak için ~g~/dungeon join \nyaz.",
 	dungeon_invitation_sent = "~g~%s~w~ Oyuncusunu zindan partisine davet ettin.",
 
 	dailymission_playerkill = "Öldürülen oyuncular",

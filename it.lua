@@ -687,7 +687,7 @@ Prestigiando riceverai un badge speciale e dei nuovi benefici come: un loot migl
 	dungeon_join_party = "~g~Sei entrato nel gruppo per il Dungeon.",
 	dungeon_too_late_for_invitation = "~r~Sei arrivato troppo tardi. Non puoi partecipare al Dungeon a questo punto della partita. (Il Dungeon è già iniziato)",
 	dungeon_already_invited_this_player = "~r~Hai già invitato questo giocatore.",
-	dungeon_invitation_received = "Hai ricevuto un invito da ~b~%s~w~ per entrare nel suo gruppo (Dungeon).\nDigita ~g~/joinDungeon %s~w~ per partecipare al gruppo.",
+	dungeon_invitation_received = "Hai ricevuto un invito da ~b~%s~w~ per entrare nel suo gruppo (Dungeon).\nDigita ~g~/dungeon join %s~w~ per partecipare al gruppo.",
 	dungeon_invitation_sent = "Hai invitato ~g~%s~w~ nel tuo gruppo (Dungeon).",
 
 	dailymission_playerkill = "Giocatori uccisi",
