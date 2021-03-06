@@ -607,6 +607,8 @@ L'obtention d'un nouveau prestige vous donne un badge spécial et de nouveaux av
 	dungeon_does_not_exist = "~r~Ce donjon n'existe pas.",
 	dungeon_ready = "~g~%s~w~ est prêt.",
 	dungeon_not_ready = "~r~%s~w~ n'est pas prêt.",
+
+	remaining_lives = "Vies restantes"
 }
 
 AddLanguage("fr", my_language)

@@ -1601,7 +1601,9 @@ Getting a new prestige gives you a special badge and new perks like better loot,
 	not_released_yet = "This is not released yet.",
 	feature_only_supporters = "~b~This feature is in beta-testing and only Diamond/Gold supporters can use it now.",
 	feature_not_enabled = "~b~This feature is not enabled yet.\n~w~Please wait for the activation later today.",
-	dungeon_charid_required = "~r~Please include your friend character id (top-left of its screen) after the command.\nExample: /dungeon invite 1234"
+	dungeon_charid_required = "~r~Please include your friend character id (top-left of its screen) after the command.\nExample: /dungeon invite 1234",
+
+	remaining_lives = "Remaining lives"
 }
 
 AddLanguage("en", my_language)
