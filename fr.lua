@@ -608,7 +608,12 @@ L'obtention d'un nouveau prestige vous donne un badge spécial et de nouveaux av
 	dungeon_ready = "~g~%s~w~ est prêt.",
 	dungeon_not_ready = "~r~%s~w~ n'est pas prêt.",
 
-	remaining_lives = "Vies restantes"
+	remaining_lives = "Vies restantes",
+
+	poll5_q1 = "Accepteriez-vous que notre anticheat capture l'écran entier des cheaters si ils sont soupçonnés de wallhack ou aimbot? (Il est possible que cela capture une partie de votre bureau si vous jouez en fenêtré, toutefois les captures ne seront jamais sauvegardées et seuls les modérateurs les plus fiables pourront utiliser cet outil)",
+	poll5_q1_a1 = "skip - ignorer",
+	poll5_q1_a2 = "Oui, j'approuve cette stratégie",
+	poll5_q1_a3 = "Non, je n'approuve pas",
 }
 
 AddLanguage("fr", my_language)

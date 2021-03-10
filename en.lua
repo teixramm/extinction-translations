@@ -1603,7 +1603,12 @@ Getting a new prestige gives you a special badge and new perks like better loot,
 	feature_not_enabled = "~b~This feature is not enabled yet.\n~w~Please wait for the activation later today.",
 	dungeon_charid_required = "~r~Please include your friend character id (top-left of its screen) after the command.\nExample: /dungeon invite 1234",
 
-	remaining_lives = "Remaining lives"
+	remaining_lives = "Remaining lives",
+
+	poll5_q1 = "Would you accept that our anticheat captures cheaters's entire screen if they're suspected of wallhack or aimbots? (It may shows a part of your desktop if the game is in windowed mode but these captures will not be saved and only used by reliable moderators)",
+	poll5_q1_a1 = "skip - ignore",
+	poll5_q1_a2 = "Yes, I agree to this new method",
+	poll5_q1_a3 = "No, I disagree",
 }
 
 AddLanguage("en", my_language)
