@@ -1452,7 +1452,7 @@ Getting a new prestige gives you a special badge and new perks like better loot,
 	already_purchased = "~r~You have already purchased this item.",
 	weapon_camo_preview = "You are previsualizing the weapon base model, some attachments are missing.\n~INPUT_CELLPHONE_CANCEL~ to exit the preview.",
 
-	already_using_a_seringue_booster = "~r~You have already take a shot of that.",
+	already_using_a_seringue_booster = "~r~You already have take a shot of this.",
 	seringue_effect_done = "~b~The seryngue booster effect is gone.",
 	you_injected_a_seringue_boost = "You have injected a ~b~seryngue shot~w~ in your blood.",
 
