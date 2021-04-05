@@ -112,7 +112,7 @@ local my_language = {
     rename = "Yeniden adlandır",
     trade_with = "Takas",
 
-    please_wait_x_before = "~r~Lütfen bunu yapmadan önce %s saniye bekleyin.",
+    please_wait_x_before = "~r~Lütfen %s saniye bekleyin.",
 
     -- cloth
     take_outfit = "Bu kıyafeti satın al",
@@ -221,10 +221,10 @@ local my_language = {
     front_post_bc_2 = "Front post Blaine County 2",
     main_post_ls = "Safe City Los Santos",
     main_post_bc = "Safe City Blaine County",
-    random_zone = "Rastgele konum (paraşütle iniş)",
+    random_zone = "Rastgele Konum",
 
     this_item_is_equipped = "~r~Silah elinde, depolamak için kısayoldan kaldır.",
-    only_in_safezone = "~r~Bunu güvenli bölge dışında yapamazsın.",
+    only_in_safezone = "~r~Bunu sadece güvenli bölge de yapabilirsin.",
     -- commerce stuff
     feature_gold_only = "Bu özellik sadece ~y~gold üyeler~w~ içindir.",
     feature_diamond_only = "Bu özellik sadece ~b~diamond üyeler~w~ içindir.",
@@ -440,7 +440,7 @@ local my_language = {
     updated_deathmessage = "~g~Öldürme mesajını güncelledin.",
     updated_deatheffect = "~g~Öldürme efektini güncelledin.",
     use = "Kullan",
-    test = "Test et",
+    test = "Test",
 
     -- zombie
     you_bitten = "~r~Isırıldın.",
@@ -572,7 +572,7 @@ local my_language = {
     hud_options = "HUD seçenekleri",
     advanced_hud = "Gelişmiş HUD göster",
     players = "Oyuncular-",
-    health = "Sağlık",
+    health = "Saglik",
     player_menu = "Oyuncu menüsü",
 
     you_are_now_zombie = "~r~Şuanda bir zombisin.",
@@ -1544,7 +1544,7 @@ local my_language = {
     darkzone_is_full = "~r~Darkzone tamamen dolu, lütfen bekle.",
     darkzone_exit_allowed = "~r~Darkzone'dan çıkmak için tekneler geldi, kaçmak istiyorsan koş.",
 
-    airdrop_taken_by = "Airdroptan çıkan ^1%s %s tarafından alındı.",
+    airdrop_taken_by = "Airdroptan çıkan %s ^1%s  tarafından alındı.",
 
     available_death_effects = "Mevcut ölüm efektleri",
     available_modes = "Mevcut modlar",
