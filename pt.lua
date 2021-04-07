@@ -527,7 +527,7 @@ local my_language = {
     cat_meat = "Raw cat",
     rare_fish = "Rare fish",
  
-    mask = "Mascarás",
+    mask = "Máscaras",
     malette = "Mala",
     malette_metal = "Mala de metal",
     ciseaux = "Tesouras",
