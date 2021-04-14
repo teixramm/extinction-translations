@@ -1544,7 +1544,7 @@ local my_language = {
     darkzone_is_full = "~r~Darkzone tamamen dolu, lütfen bekle.",
     darkzone_exit_allowed = "~r~Darkzone'dan çıkmak için tekneler geldi, kaçmak istiyorsan koş.",
 
-    airdrop_taken_by = "Airdroptan çıkan %s ^1%s  tarafından alındı.",
+    airdrop_taken_by = "^1%s Airdroptan çıkan %s eşyasını aldı.",
 
     available_death_effects = "Mevcut ölüm efektleri",
     available_modes = "Mevcut modlar",
