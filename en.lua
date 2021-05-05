@@ -1452,7 +1452,7 @@ Getting a new prestige gives you a special badge and new perks like better loot,
 	already_purchased = "~r~You have already purchased this item.",
 	weapon_camo_preview = "You are previsualizing the weapon base model, some attachments are missing.\n~INPUT_CELLPHONE_CANCEL~ to exit the preview.",
 
-	already_using_a_seringue_booster = "~r~You have already take a shot of that.",
+	already_using_a_seringue_booster = "~r~You already have take a shot of this.",
 	seringue_effect_done = "~b~The seryngue booster effect is gone.",
 	you_injected_a_seringue_boost = "You have injected a ~b~seryngue shot~w~ in your blood.",
 
@@ -1602,6 +1602,11 @@ Getting a new prestige gives you a special badge and new perks like better loot,
 	feature_not_enabled = "~b~This feature is not enabled yet.\n~w~Please wait for the activation later today.",
 	dungeon_charid_required = "~r~Please include your friend character id (top-left of its screen) after the command.\nExample: /dungeon invite 1234",
 
+	poll5_q1 = "Would you accept that our anticheat captures cheaters's entire screen if they're suspected of wallhack or aimbots? (It may shows a part of your desktop if the game is in windowed mode but these captures will not be saved and only used by reliable moderators)",
+	poll5_q1_a1 = "skip - ignore",
+	poll5_q1_a2 = "Yes, I agree to this new method",
+	poll5_q1_a3 = "No, I disagree",
+	
 	darkzone_not_enough_points_to_exit = "You need ~r~%sx points~w~ to exit the darkzone.",
 	press_e_to_exit_the_darkzone = "Press ~INPUT_CONTEXT~ to exit the darkzone.\n~r~You need x%s darkzone points.",
 	use_purificator = "use the purificator",
@@ -1619,6 +1624,7 @@ Getting a new prestige gives you a special badge and new perks like better loot,
 	redzone_kill_leader_fled = "The ~r~redzone kill leader~w~ fled.",
 	redzone_get_back_kill_leader_before_x = "You are ~r~outside the redzone~w~ get back or you will loose your title in ~r~%s seconds~w~.",
 	redzone_kill_leader_new_xp_step = "~r~Redzone XP Multiplier\n~b~+%s%~w~ bonus",
+	remaining_lives = "Remaining lives",
 }
 
 AddLanguage("en", my_language)
