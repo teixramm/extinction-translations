@@ -1,0 +1,18 @@
+{
+	"your-profile": "Votre profil",
+	"no_crew": "Aucun crew",
+	"experience": "Experience",
+	"death": "Morts",
+	"kill": "Joueurs tués",
+	"zombie": "Zombies tués",
+	"createdAt": "Compte créé",
+	"played_time": "Temps de jeu",
+	"favorite_server": "Serveur favoris",
+	"ratio": "Ratio KD/A",
+	"not_ranked": "Non classé",
+	"world_rank": "Rang mondial",
+	"kill_redzone": "Joueurs tués en redzone",
+	"kill_darkzone": "Joueurs tués en darkzone",
+	"zombie_redzone": "Zombies tués en redzone",
+	"zombie_darkzone": "Zombies tués en darkzone"
+}
