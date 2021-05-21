@@ -908,6 +908,15 @@ Getting a new prestige gives you a special badge and new perks like better loot,
 	marketplace_you_received_x_x = "You received ~b~%sx ~g~%s~w~.",
 
 	above_level_x_no_longer_possible_loot_safe = "Player above rank %s cannot loot zombies in safezones.",
+	preferred_component_desc = "This set will be the default set of all %s weapon you hold.",
+	set_as_preferred_component_class = "Set as preferred component set",
+	weapon_presets_updated = "You have set the default component presets for your ~g~%s~w~.",
+
+	-- New survey
+	poll6_q1 = "Would you like the crew member limit to be set to 25 members? (more competition, smaller groups)",
+	poll6_q2 = "Is your main server fine for your ping? (Is your average ping ok?)",
+	poll6_q3 = "Are you playing in private worlds?",
+	poll6_q4 = "Should headshots be enabled for season 4?",
 }
 
 AddLanguage("en", my_language)
