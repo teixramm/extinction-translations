@@ -13,5 +13,8 @@
 	"total": "Total",
 	"crew": "Crew",
 	"country": "Country",
-	"none": "None"
+	"none": "None",
+	"extinction_points_stats": "Extinction Points",
+	"top-by-ext-points-pl": "Top player by Extinction points",
+	"top-by-ext-points-cr": "Top crew by Extinction points"
 }
