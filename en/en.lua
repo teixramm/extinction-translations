@@ -934,6 +934,14 @@ Getting a new prestige gives you a special badge and new perks like better loot,
 	dungeon_find_c4_obj = "There are blocks of C4 hidden somewhere, find them.",
 	dungeon_use_c4_obj = "Use your C4 to blow up the vault door.",
 	dungeon_party_help = "Type ~b~\"/dungeon\"~w~ to manage the dungeon party.",
+	press_x_to = "Press %s to %s",
+
+	quest_clean_zone = "Clean the zone: %s",
+	quest_clean_zone_desc = "Reach %s and clean the area of zombies.",
+
+	loot_crate_light = "Light Loot Crate",
+	loot_crate_medium = "Medium Loot Crate",
+	loot_crate_high = "High Loot Crate",
 }
 
 AddLanguage("en", my_language)
