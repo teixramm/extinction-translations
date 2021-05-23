@@ -921,7 +921,41 @@ local my_language = {
 	car_custom_presets_saved = "Modifiye  ~g~%s~w~  olarak kaydedildi.",
 	marketplace_you_received_x_x = "~b~%sx ~g~%s~w~ Aldın.",
 
-	above_level_x_no_longer_possible_loot_safe = "%s sıralaması üzerindeki oyuncular, güvenli bölgelerdeki zombileri yağmalayamaz."
+	above_level_x_no_longer_possible_loot_safe = "%s sıralaması üzerindeki oyuncular, güvenli bölgelerdeki zombileri yağmalayamaz.",
+
+
+
+
+
+
+
+	preferred_component_desc = "Bu silah eklenti seti, kullandığınız tüm %s silahlarının varsayılan eklenti seti olacaktır.",
+	set_as_preferred_component_class = "Tercih edilen silah eklenti seti olarak ayarla.",
+	weapon_presets_updated = "~g~%s~w~ Silahı için varsayılan eklenti seti olarak ayarlandı.",
+
+	
+	poll6_q1 = "Crew üye sınırının 25 üye olarak ayarlanmasını ister misiniz? (daha fazla rekabet, daha küçük gruplar)",
+	poll6_q2 = "Oynadığınız ana sunucuda ping değeriniz iyi mi? (Ortalama pinginiz iyi mi?)",
+	poll6_q3 = "Özel dünyada mı oynuyorsunuz?",
+	poll6_q4 = "4. sezon için kafadan vuruşlar etkinleştirilmeli mi? (Kafadan vuruşlarda daha fazla hasar)",
+	
+	casino_dungeon_desc = "⚠️ ~r~Burada daha iyi görebilmek için silah el fenerine ihtiyacınız olabilir.",
+	dungeon_destroy_wall_obj = "Yolunuzu kapatan duvarı yok edin.",
+	dungeon_use_key_obj = "Kapıyı açmak için anahtarı kullanın.",
+	dungeon_kill_zombies_obj = "Tüm zombileri öldür.",
+	dungeon_kill_zombies_obj_x = "~b~Tüm zombileri öldür~w~\n Oyuncuların %s/%s zombilerini öldürdü.",
+	dungeon_use_key_to_open_door = "Kapıyı açmak için anahtarı kullanın.",
+	dungeon_find_key_obj = "Odadaki kapıyı açmak için bir anahtar bul.",
+	take_key = "Anahtarı Al",
+	open_the_door = "Kapıyı Aç",
+	dungeon_quit_notif = "Zindan'dan ayrılmak için ~g~/dungeon quit~w~ komutunu kullan",
+	dungeon_generator_obj = "Jeneratörü bulun ve aktif edin.",
+	dungeon_press_generator = "Jeneratörü değiştirmek için ~INPUT_CONTEXT~ tuşuna basın.",
+	power_generator = "Güç jeneratörü",
+	dungeon_find_c4_obj = "Gizlenmiş C4 blokları var, bulun onları.",
+	dungeon_use_c4_obj = "Kasa kapısını havaya uçurmak için C4'ünüzü kullanın.",
+	dungeon_party_help = "Zindan partisini yönetmek için ~b~\"/dungeon\"~w~  komutunu kullan.",
+
 }
 
 AddLanguage("tr", my_language)
