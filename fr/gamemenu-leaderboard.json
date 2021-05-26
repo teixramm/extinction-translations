@@ -13,5 +13,8 @@
 	"total": "Total",
 	"crew": "Crew",
 	"country": "Pays",
-	"none": "Aucun"
+	"none": "Aucun",
+	"extinction_points_stats": "Extinction Points",
+	"top-by-ext-points-pl": "Meilleur joueur par points extinction",
+	"top-by-ext-points-cr": "Meilleur crew par points extinction"
 }

@@ -8,5 +8,6 @@
 	"offer-stats": "Statistiques de l'offre",
 	"history": "Historique de {{itemName}}",
 	"price-history": "Historique des prix",
-	"view-graph": "View graph"
+	"view-graph": "View graph",
+	"delete-all-sell-offers": "Supprimer toutes les offres de vente"
 }

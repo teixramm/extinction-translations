@@ -21,6 +21,7 @@
 	"view": "Voir {{count}} offre",
 	"view_plural": "Voir {{count}} offres",
 	"delete": "Supprimer",
+	"marketplace": "Marché",
 	"Search": "Recherche",
 	"all": "Tous",
 	"weapon": "Arme",
@@ -28,11 +29,11 @@
 	"equipment": "Équipement",
 	"vehicle": "Véhicule",
 	"misc": "Autre",
-	"marketplace": "Marché",
 	"Daily Missions": "Missions quotidiennes",
 	"settings": "Options",
 	"crew_profile": "Profile crew",
 	"trade": "Échange",
 	"my_marketplace_offers": "Mes offres marché",
-	"new_marketplace_offer": "Nouvelle offre marché"
+	"new_marketplace_offer": "Nouvelle offre marché",
+	"leaderboard_home": "Classement"
 }
