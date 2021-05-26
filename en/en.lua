@@ -225,7 +225,7 @@ local my_language = {
 
 	this_item_is_equipped = "~r~This item is equipped, remove it from your shortcuts.",
 	only_in_safezone = "~r~You cannot do that outside a safe-zone.",
-	-- commerce stuff
+	-- Commerce
 	feature_gold_only = "This feature is only for ~y~gold members~w~.",
 	feature_diamond_only = "This feature is only for ~b~diamond members~w~.",
 	you_turned_into = "You turned into a ~g~%s~w~.",
@@ -530,6 +530,7 @@ local my_language = {
 	mask = "Mask",
 	malette = "Suitcase",
 	malette_metal = "Metal suitcase",
+	outfit = "Tenue",
 	ciseaux = "Scissors",
 	clean_kit = "Clean kit",
 	fishing_rod = "Fishing rod",
@@ -544,6 +545,7 @@ local my_language = {
 	repair_tool = "Repair kit",
 	jvn = "JVN",
 	engine_veh = "Engine",
+	bag = "Sac",
 	wheel_veh = "Wheel",
 	vetement = "Top",
 	bloc_note = "Notepad",
@@ -803,7 +805,7 @@ Getting a new prestige gives you a special badge and new perks like better loot,
 	not_released_yet = "This is not released yet.",
 	feature_only_supporters = "~b~This feature is in beta-testing and only Diamond/Gold supporters can use it now.",
 	feature_not_enabled = "~b~This feature is not enabled yet.\n~w~Please wait for the activation later today.",
-	dungeon_charid_required = "~r~Please include your friend character id (top-left of its screen) after the command.\nExample: /dungeon invite 1234",
+	dungeon_charid_required = "~r~Please include your friend character id (top-right of its screen) after the command.\nExample: /dungeon invite 1234",
 
 	poll5_q1 = "Would you accept that our anticheat captures cheaters's entire screen if they're suspected of wallhack or aimbots? (It may shows a part of your desktop if the game is in windowed mode but these captures will not be saved and only used by reliable moderators)",
 	poll5_q1_a1 = "skip - ignore",
@@ -942,6 +944,20 @@ Getting a new prestige gives you a special badge and new perks like better loot,
 	loot_crate_light = "Light Loot Crate",
 	loot_crate_medium = "Medium Loot Crate",
 	loot_crate_high = "High Loot Crate",
+	
+	dailymission_killzombieinzoneid = "Zombies killed in the zone",
+	dailymission_dungeonbosskilled = "Dungeon boss killed",
+
+	quest_too_far_npc = "~r~You are too far from the quest NPC.",
+	quest_already_started_quest = "~r~You have already started this quest.",
+	quest_redo_in_x = "~r~You have already done this quest.\n~w~You will be able to redo this quest in ~b~%s",
+	quest_max_quests_reached = "~r~You can only accept %s quests.",
+	quest_new_accepted = "~g~You accepted a new quest.",
+	quest_gave_up = "~r~You gave up this quest.",
+	quest_not_completed = "~r~You need to complete all objectives of the quest.",
+	quest_already_completed = "~r~You already have completed this quest.",
+	quest_all_completed = "~g~You successfully completed all objectives.",
+	dungeon_key = "Dungeon key",
 }
 
 AddLanguage("en", my_language)
