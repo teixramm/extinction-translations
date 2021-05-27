@@ -958,6 +958,7 @@ Getting a new prestige gives you a special badge and new perks like better loot,
 	quest_already_completed = "~r~You already have completed this quest.",
 	quest_all_completed = "~g~You successfully completed all objectives.",
 	dungeon_key = "Dungeon key",
+	darkzone_cannot_enter_min_levels = "You must be level ~b~%s~w~ to enter the darkzone.",
 }
 
 AddLanguage("en", my_language)
