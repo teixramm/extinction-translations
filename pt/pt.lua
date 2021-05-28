@@ -36,7 +36,7 @@ local my_language = {
     take_item_container = "Retiraste ~g~x%s~w~ %s~w~ do teu contentor.",
     not_allowed_here = "~r~Não podes fazer isso aqui.",
     cant_store_moving_veh = "~r~Não podes guardar um veículo em movimento.",
-    use_repair_tool = "usa o kit de reparos",
+    use_repair_tool = "Usa o kit de reparação",
     please_get_closer = "~b~Aproxima-te, nenhuma entidade perto.",
     you_cancel_action = "~r~Cancelaste a ação.",
     selected_target_message = "Alvo selecionado:~n~%s~n~~r~Aperta ~b~Y~r~ para cancelar~n~~r~Aperta ~g~X~r~ para continuar.",
@@ -63,7 +63,7 @@ local my_language = {
     red_kick = "Expulsar",
     crew_name = "Nome da crew",
     slogan = "TAG",
-    information = "informação",
+    information = "Informação",
     boss_rank = "Nome do cargo do fundador",
     member_rank = "Nome do cargo inicial",
     member = "Membro",
@@ -157,7 +157,7 @@ local my_language = {
     -- health
     inconscious = "Inconsciente",
     doing_something = "Fazer algo",
-    time_before_respawn = "Tempo até respawnar",
+    time_before_respawn = "Tempo até dar respawn",
     you_died = "~r~Morreste.",
     healing_wounds = "A curar-se",
     already_doing_something = "~r~Já estás a fazer algo.",
@@ -444,7 +444,7 @@ local my_language = {
  
     -- zombie
     you_bitten = "~r~Foste mordido.",
-    infection_rate = "Pecentagem de infeção: ~r~%s%%",
+    infection_rate = "Percentagem de infeção: ~r~%s%%",
  
     -- ranks
     thug = "Thug",
@@ -538,10 +538,10 @@ local my_language = {
     accessory = "Acessório",
     radio = "Rádio",
     recyclor = "Reciclador",
-    medkit = "Medkit",
+    medkit = "Kit Médico",
     kevlar = "Kevlar",
     gps = "GPS",
-    repair_tool = "Kit de Reparos",
+    repair_tool = "Kit de Reparação",
     jvn = "JVN",
     engine_veh = "Motor",
     wheel_veh = "Roda",

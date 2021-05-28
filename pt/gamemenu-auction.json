@@ -1,0 +1,14 @@
+{
+    "create-an-offer": "CRIAR UM ANÚNCIO",
+    "select-an-item": "Escolhe o item",
+    "new-auction": "Novo Anúncio",
+    "my-auctions": "Meus Anúncios",
+    "auction-buy-help": "Duplo Clique para Vender/Comprar.",
+	"claim-my-sales": "Receber as Vendas",
+	"Offers": "Anúncios",
+	"offer-stats": "Estatísticas de Anúncio",
+	"history": "Histórico do {{itemName}}",
+	"price-history": "Histórico de Preço",
+	"view-graph": "Ver Gráfico",
+	"delete-all-sell-offers": "Apagar todos os Anúncios"
+}
