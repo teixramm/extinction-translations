@@ -883,7 +883,7 @@ L'obtention d'un nouveau prestige vous donne un badge spécial et de nouveaux av
 	darkzone_surviving_since = "Survivant depuis",
 	darkzone_points = "Points",
 	darkzone_points_x = "~r~Points de darkzone: ~w~+%s",
-	darkzone_landing_in_x = "Atterrissage disponible dans ~b~%s minutes~w~.",
+	darkzone_landing_in_x = "Atterrissage disponible dans ~b~%s minutes~w~.\nSi suffisamment de joueurs.",
 	darkzone_open_press_context = "La darkzone est ouverte~w~.\nAppuyez sur ~INPUT_CONTEXT~ pour atterir ~m~sur la darkzone~w~.",
 	darkzone_outside_warning = "~r~Vous êtes en dehors de la darkzone, revenez ou mourez..",
 	darkzone_close_warning = "~r~La darkzone va bientôt fermer~w~.\nVous ne devriez pas rester ici trop longtemps.",
