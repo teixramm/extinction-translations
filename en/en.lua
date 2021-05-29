@@ -962,6 +962,8 @@ Getting a new prestige gives you a special badge and new perks like better loot,
 	darkzone_you_survived_x = "You survived ~r~%s minute(s)~w~ in the darkzone.",
 	questmenu_command = "Open the quest menu",
 	squadmenu_command = "Open the squad menu",
+	airdrop_coming_darkzone = "~r~An airdrop is coming in the darkzone check your map.",
+	darkzone_full_crew = "There is already ~r~%s members~w~ of your crew in the darkzone, wait for someone to leave.",
 }
 
 AddLanguage("en", my_language)

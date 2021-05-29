@@ -961,6 +961,8 @@ L'obtention d'un nouveau prestige vous donne un badge spécial et de nouveaux av
 	darkzone_cannot_enter_min_levels = "Vous devez être niveau ~b~%s~w~ pour entrer en darkzone.",
 	questmenu_command = "Ouvrir le menu des quêtes",
 	squadmenu_command = "Ouvrir le menu des escouades",
+	airdrop_coming_darkzone = "~r~Un larguage est en chemin en darkzone.",
+	darkzone_full_crew = "Il y a déjà ~r~%s membres~w~ de votre crew dans la darkzone, attendez que quelqu'un en sorte.",
 }
 
 AddLanguage("fr", my_language)
