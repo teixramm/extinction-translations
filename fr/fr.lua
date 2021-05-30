@@ -530,7 +530,6 @@ local my_language = {
 	mask = "Masque",
 	malette = "Malette",
 	malette_metal = "Malette en métal",
-	outfit = "Tenue",
 	ciseaux = "Ciseaux",
 	clean_kit = "Kit de lavage",
 	fishing_rod = "Canne à pêche",
@@ -963,6 +962,8 @@ L'obtention d'un nouveau prestige vous donne un badge spécial et de nouveaux av
 	squadmenu_command = "Ouvrir le menu des escouades",
 	airdrop_coming_darkzone = "~r~Un larguage est en chemin en darkzone.",
 	darkzone_full_crew = "Il y a déjà ~r~%s membres~w~ de votre crew dans la darkzone, attendez que quelqu'un en sorte.",
+
+	crew_join_cooldown_x = "Vous devez patienter ~r~%s~w~ avant de joindre ce crew.",
 }
 
 AddLanguage("fr", my_language)

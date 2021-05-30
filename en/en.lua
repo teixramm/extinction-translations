@@ -530,7 +530,6 @@ local my_language = {
 	mask = "Mask",
 	malette = "Suitcase",
 	malette_metal = "Metal suitcase",
-	outfit = "Tenue",
 	ciseaux = "Scissors",
 	clean_kit = "Clean kit",
 	fishing_rod = "Fishing rod",
@@ -964,6 +963,8 @@ Getting a new prestige gives you a special badge and new perks like better loot,
 	squadmenu_command = "Open the squad menu",
 	airdrop_coming_darkzone = "~r~An airdrop is coming in the darkzone check your map.",
 	darkzone_full_crew = "There is already ~r~%s members~w~ of your crew in the darkzone, wait for someone to leave.",
+
+	crew_join_cooldown_x = "You need to wait ~r~%s~w~ before joining this crew.",
 }
 
 AddLanguage("en", my_language)

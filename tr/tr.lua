@@ -1,4 +1,3 @@
--- Put your Lua here
 local my_language = {
 	give_vehicle = " ~b~%s~w~ Envanterine eklendi.",
 	store_vehicle_command = "Sürmekte olduğunuz aracı saklayın",
@@ -545,6 +544,7 @@ local my_language = {
 	repair_tool = "Repair kit",
 	jvn = "JVN",
 	engine_veh = "Engine",
+	bag = "Bag",
 	wheel_veh = "Wheel",
 	vetement = "Top",
 	bloc_note = "Notepad",
@@ -553,6 +553,7 @@ local my_language = {
 	paracetamol = "Paracetamol",
 	bandage = "Bandaj",
 	gaz_mask = "Gaz mask",
+	filter = "Filter",
 	tattoo_tool = "Tattoo tool",
 	drug_med = "Drug",
 	drug_antizin = "Antizin shot",
@@ -677,6 +678,8 @@ local my_language = {
 
 	deleted_sell_offer = "~b~Satış teklifini sildin.",
 	deleted_buy_offer = "~b~Satış teklifini sildin.",
+	deleted_sell_offers = "~b~You deleted your sell offers.",
+	deleted_buy_offers = "~b~You deleted your sell offers.",
 
 	marketplace_offer_does_not_exist = "~r~Bu teklif artık mevcut değil.",
 
@@ -744,13 +747,6 @@ local my_language = {
 	ff_19 = "Çene deliği",
 	ff_20 = "Boyun kalınlığı",
 
-	exit_the_darkzone = "Darkzone'dan çıkılıyor",
-	you_entered_the_darkzone = "~r~Darkzone'a girdin.",
-	you_left_the_darkzone = "~r~Darkzone'dan ayrıldın.",
-	cannot_enter_darkzone_time = "~r~Darkzone henüz açılmadı, bekle.",
-	darkzone_is_full = "~r~Darkzone tamamen dolu, lütfen bekle.",
-	darkzone_exit_allowed = "~r~Darkzone'dan çıkmak için tekneler geldi, kaçmak istiyorsan koş.",
-
 	airdrop_taken_by = "^1%s Airdroptan çıkan %s eşyasını aldı.",
 
 	available_death_effects = "Mevcut ölüm efektleri",
@@ -791,40 +787,31 @@ local my_language = {
 
 	i_want_to_enter_a_dungeon = "Zindan'a girmek istiyorum.",
 	dungeon_list = "Zindan listesi",
-
 	dungeon = "Zindan",
 	dungeons = "Zindanlar",
-
 	you_need_x_keys = "Zindan'a katılmak için ~y~%s adet zindan anahtarına~w~ ihtiyacın var.",
 	time_remaining = "Kalan Süre",
 	you_killed_the_dungeon_boss = "~r~Zindan canavarını öldürdün.",
 	dungeon_kill_final_boss = "Son odadasın. Hazineyi almak için canavarı öldür.",
+
 	dungeon_died_remaining = "Öldün , ~r~%s~w~ Şansın kaldı dikkatli ol.",
 	dungeon_died = "~r~Son şansını kullandın ve canın kalmadı , Öldün!",
-
 	dungeon_already_in_party = "~r~Zaten zindan partisindesin , Partiden ayrılmak için \n~w~/dungeon quit yaz..",
 	dungeon_does_not_exist = "~r~Bu zindan mevcut değil.",
 	dungeon_ready = "~g~%s~w~ Hazır!",
 	dungeon_not_ready = "~r~%s~w~ Henüz hazır değil.",
+
 	not_released_yet = "Bu özellik henüz kullanılabilir değil!",
 	feature_only_supporters = "~b~Bu özellik henüz test aşamasında sadece Diamond/Gold supporters üyeler kullanabilir.",
-
 	feature_not_enabled = "~b~Bu özellik henüz aktif değil.\n~w~Lütfen aktif edilmesini bekleyin.",
 	dungeon_charid_required = "~r~Lütfen yazdığınız komuttan sonra arkadaşınızın karakter id'sini ekleyin.(Ekranın sol üst tarafında) .\nÖrnek: /dungeon invite 1234",
-
-	remaining_lives = "Kalan Can",
 
 	poll5_q1 = "Wallhack veya aimbot'lardan şüpheleniyorlarsa, anticheat'imizin hilecilerin tüm ekranını yakalayacağını kabul eder misiniz? (Oyun pencereli moddaysa masaüstünüzün bir bölümünü gösterebilir, ancak bu yakalamalar kaydedilmeyecek ve yalnızca güvenilir moderatörler tarafından kullanılacaktır)",
 	poll5_q1_a1 = "Atla - Yok say.",
 	poll5_q1_a2 = "Evet, Yeni yöntemi kabul ediyorum",
 	poll5_q1_a3 = "Hayır, Kabul etmiyorum",
 
-
-
-
-
 	-- S4
-
 	redzone_kill_leader_killed = "~r~Redzone Lideri~w~ Öldürüldü.",
 	redzone_kill_leader_fled = "~r~Redzone Lideri~w~ Kaçtı.",
 	redzone_get_back_kill_leader_before_x = "~r~Redzone Dışındasın~w~ ~r~%s Saniye~w~ İçerisinde geri dönmezsen ünvanını kaybedeceksin.",
@@ -922,18 +909,11 @@ local my_language = {
 	marketplace_you_received_x_x = "~b~%sx ~g~%s~w~ Aldın.",
 
 	above_level_x_no_longer_possible_loot_safe = "%s sıralaması üzerindeki oyuncular, güvenli bölgelerdeki zombileri yağmalayamaz.",
-
-
-
-
-
-
-
 	preferred_component_desc = "Bu silah eklenti seti, kullandığınız tüm %s silahlarının varsayılan eklenti seti olacaktır.",
 	set_as_preferred_component_class = "Tercih edilen silah eklenti seti olarak ayarla.",
 	weapon_presets_updated = "~g~%s~w~ Silahı için varsayılan eklenti seti olarak ayarlandı.",
 
-	
+	-- New survey
 	poll6_q1 = "Crew üye sınırının 25 üye olarak ayarlanmasını ister misiniz? (daha fazla rekabet, daha küçük gruplar)",
 	poll6_q2 = "Oynadığınız ana sunucuda ping değeriniz iyi mi? (Ortalama pinginiz iyi mi?)",
 	poll6_q3 = "Özel dünyada mı oynuyorsunuz?",
@@ -955,7 +935,6 @@ local my_language = {
 	dungeon_find_c4_obj = "Gizlenmiş C4 blokları var, bulun onları.",
 	dungeon_use_c4_obj = "Kasa kapısını havaya uçurmak için C4'ünüzü kullanın.",
 	dungeon_party_help = "Zindan partisini yönetmek için ~b~\"/dungeon\"~w~  komutunu kullan.",
-
 }
 
 AddLanguage("tr", my_language)
