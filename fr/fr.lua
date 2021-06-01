@@ -964,6 +964,12 @@ L'obtention d'un nouveau prestige vous donne un badge spécial et de nouveaux av
 	darkzone_full_crew = "Il y a déjà ~r~%s membres~w~ de votre crew dans la darkzone, attendez que quelqu'un en sorte.",
 
 	crew_join_cooldown_x = "Vous devez patienter ~r~%s~w~ avant de joindre ce crew.",
+	darkzone_not_enough_players_darkzone = "La darkzone n'ouvrira pas.\n~r~Pas suffisamment de joueurs.",
+
+	dungeon_loot_boss_box = "~g~Un coffre est apparu au centre de la pièce.",
+	drug_antizin_bar = "Effet Antizin",
+	drug_stamina_bar = "Effet Endurance",
+	drug_berserker_bar = "Effet Vie",
 }
 
 AddLanguage("fr", my_language)

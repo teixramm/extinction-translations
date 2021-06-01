@@ -965,6 +965,12 @@ Getting a new prestige gives you a special badge and new perks like better loot,
 	darkzone_full_crew = "There is already ~r~%s members~w~ of your crew in the darkzone, wait for someone to leave.",
 
 	crew_join_cooldown_x = "You need to wait ~r~%s~w~ before joining this crew.",
+	darkzone_not_enough_players_darkzone = "The darkzone will not open.\n~r~Not enough players.",
+
+	dungeon_loot_boss_box = "~g~A chest appeared in the center of the room.",
+	drug_antizin_bar = "Antizin effect",
+	drug_stamina_bar = "Stamina effect",
+	drug_berserker_bar = "Health effect",
 }
 
 AddLanguage("en", my_language)
