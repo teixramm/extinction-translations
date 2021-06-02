@@ -51,7 +51,6 @@ local my_language = {
 
 	-- perms
 	kick_member = "Espelli Membri",
-	invite_someone = "Invita Membri",
 	edit_member = "Modifica Membri",
 	edit_rank = "Modifica Rank",
 	create_rank = "Crea Rank",
@@ -545,6 +544,7 @@ local my_language = {
 	repair_tool = "Kit di riparazione",
 	jvn = "JVN",
 	engine_veh = "Motore",
+	bag = "Sac",
 	wheel_veh = "Ruota",
 	vetement = "Top",
 	bloc_note = "Blocco note",
@@ -591,6 +591,9 @@ local my_language = {
 	skin_blue = "Blu",
 	skin_orange = "Arancione",
 
+	weapon_katana = "Katana",
+	weapon_sledgehammer = "Sledge Hammer",
+
 	-- new
 	airdrop_coming = "~r~Un approvvigionamento sta arrivando, controlla la mappa.",
 	killed_by_cheater = "~r~Sei stato ucciso da un cheater.\n~w~Lo abbiamo bannato e ti abbiamo annullato la morte.",
@@ -628,6 +631,14 @@ Prestigiando riceverai un badge speciale e dei nuovi benefici come: un loot migl
 	new_prestige_stats_upgrade = "Hai aggiornato il tuo ~b~%s~w~\n~g~%s/%s",
 
 	legendary_vehicle_pop = "~r~E\' apparso un veicolo leggendario, controlla la mappa.",
+
+	-- poll one
+	poll1_q1 = "What kind of game server would you like to see?",
+
+	poll1_q1_a1 = "Battle Royale",
+	poll1_q1_a2 = "Private missions solo or with 1-4 friends (Payday / Heist / Hitman like)",
+	poll1_q1_a3 = "Race / Freeroam",
+	poll1_q1_a4 = "Murder / Horror game",
 
 	-- poll two
 	poll2_q1 = "Parli bene l\'Inglese? forse potrebbe interessarti il nostro Server RP, GLife RP.",
@@ -668,6 +679,8 @@ Prestigiando riceverai un badge speciale e dei nuovi benefici come: un loot migl
 
 	deleted_sell_offer = "~b~Hai cancellato la tua offerta di vendita.",
 	deleted_buy_offer = "~b~Hai cancellato la tua offerta di acquisto.",
+	deleted_sell_offers = "~b~You deleted your sell offers.",
+	deleted_buy_offers = "~b~You deleted your sell offers.",
 
 	marketplace_offer_does_not_exist = "~r~Questa offerta non esiste.",
 
@@ -678,17 +691,6 @@ Prestigiando riceverai un badge speciale e dei nuovi benefici come: un loot migl
 	i_want_to_exit_private_world = "Voglio ritornare nel mondo pubblico.",
 	public_world = "Mondo Pubblico",
 	private_world = "Mondo Privato",
-
-	dungeon_no_more_time = "~r~Sei stato troppo lento. Il Dungeon si è chiuso.",
-	dungeon_participant_left = "~r~%s è uscito dal Dungeon.",
-	started_dungeon_party = "~b~Hai creato una sala Dungeon.",
-	dungeon_party_no_longer_exists = "~r~Non esiste ancora nessun invito di gruppo per il Dungeon.",
-	dungeon_invitation_expired = "~r~l'invito di gruppo per il Dungeon è scaduto.",
-	dungeon_join_party = "~g~Sei entrato nel gruppo per il Dungeon.",
-	dungeon_too_late_for_invitation = "~r~Sei arrivato troppo tardi. Non puoi partecipare al Dungeon a questo punto della partita. (Il Dungeon è già iniziato)",
-	dungeon_already_invited_this_player = "~r~Hai già invitato questo giocatore.",
-	dungeon_invitation_received = "Hai ricevuto un invito da ~b~%s~w~ per entrare nel suo gruppo (Dungeon).\nDigita ~g~/dungeon join %s~w~ per partecipare al gruppo.",
-	dungeon_invitation_sent = "Hai invitato ~g~%s~w~ nel tuo gruppo (Dungeon).",
 
 	dailymission_playerkill = "Giocatori uccisi",
 	dailymission_zombiekill = "Zombie uccisi",
@@ -746,12 +748,230 @@ Prestigiando riceverai un badge speciale e dei nuovi benefici come: un loot migl
 	ff_19 = "Fossetta del mento",
 	ff_20 = "Spessore del collo",
 
-	exit_the_darkzone = "Per uscire dalla DarkZone",
+	airdrop_taken_by = "^1%s has taken %s from the airdrop.",
+
+	available_death_effects = "Available death effects",
+	available_modes = "Available modes",
+
+	you_changed_your_ped_model = "~g~You successfully changed your ped model.",
+	i_want_to_change_my_ped = "I want to change my ped",
+
+	poll4_q1 = "What do you expect from the next season?",
+	poll4_q1_a4 = "New world event like airdrops, zone capture etc.",
+	poll4_q1_a1 = "More PvE content like dungeons",
+	poll4_q1_a2 = "More games like casino / races",
+	poll4_q1_a3 = "PvP content",
+
+	poll4_q2 = "Would you like to have more ranked/tournament modes?",
+	poll4_q2_a1 = "Yes",
+	poll4_q2_a2 = "No",
+
+	poll4_q3 = "Would you like to have snipers in shops?",
+	poll4_q3_a1 = "Yes",
+	poll4_q3_a2 = "No",
+
+	poll4_q4 = "What do you enjoy the most on Extinction?",
+	poll4_q4_a1 = "PvP",
+	poll4_q4_a2 = "PvE",
+	poll4_q4_a3 = "Trading",
+
+	dungeon_no_more_time = "~r~Sei stato troppo lento. Il Dungeon si è chiuso.",
+	dungeon_participant_left = "~r~%s è uscito dal Dungeon.",
+	started_dungeon_party = "~b~Hai creato una sala Dungeon.",
+	dungeon_party_no_longer_exists = "~r~Non esiste ancora nessun invito di gruppo per il Dungeon.",
+	dungeon_invitation_expired = "~r~l'invito di gruppo per il Dungeon è scaduto.",
+	dungeon_join_party = "~g~Sei entrato nel gruppo per il Dungeon.",
+	dungeon_too_late_for_invitation = "~r~Sei arrivato troppo tardi. Non puoi partecipare al Dungeon a questo punto della partita. (Il Dungeon è già iniziato)",
+	dungeon_already_invited_this_player = "~r~Hai già invitato questo giocatore.",
+	dungeon_invitation_received = "Hai ricevuto un invito da ~b~%s~w~ per entrare nel suo gruppo (Dungeon).\nDigita ~g~/dungeon join %s~w~ per partecipare al gruppo.",
+	dungeon_invitation_sent = "Hai invitato ~g~%s~w~ nel tuo gruppo (Dungeon).",
+
+	i_want_to_enter_a_dungeon = "I want to enter in a dungeon",
+	dungeon_list = "Dungeon list",
+	dungeon = "Dungeon",
+	dungeons = "Dungeons",
+	you_need_x_keys = "You need ~y~%s dungeon keys~w~ to enter the dungeon.",
+	time_remaining = "Time remaining",
+	you_killed_the_dungeon_boss = "~r~You killed the dungeon boss.",
+	dungeon_kill_final_boss = "You are in the final room. Kill the boss to get the treasure.",
+
+	dungeon_died_remaining = "You died, you have ~r~%s~w~ remaining lives.",
+	dungeon_died = "~r~You no longer have any remaining lives. You died.",
+	dungeon_already_in_party = "~r~You already are in a dungeon party.\n~w~Type /dungeon quit to leave.",
+	dungeon_does_not_exist = "~r~This dungeon does not exist.",
+	dungeon_ready = "~g~%s~w~ is ready.",
+	dungeon_not_ready = "~r~%s~w~ is not ready.",
+
+	not_released_yet = "This is not released yet.",
+	feature_only_supporters = "~b~This feature is in beta-testing and only Diamond/Gold supporters can use it now.",
+	feature_not_enabled = "~b~This feature is not enabled yet.\n~w~Please wait for the activation later today.",
+	dungeon_charid_required = "~r~Please include your friend character id (top-right of its screen) after the command.\nExample: /dungeon invite 1234",
+
+	poll5_q1 = "Would you accept that our anticheat captures cheaters's entire screen if they're suspected of wallhack or aimbots? (It may shows a part of your desktop if the game is in windowed mode but these captures will not be saved and only used by reliable moderators)",
+	poll5_q1_a1 = "skip - ignore",
+	poll5_q1_a2 = "Yes, I agree to this new method",
+	poll5_q1_a3 = "No, I disagree",
+
+	-- S4
+	redzone_kill_leader_killed = "The ~r~redzone kill leader~w~ was killed.",
+	redzone_kill_leader_fled = "The ~r~redzone kill leader~w~ fled.",
+	redzone_get_back_kill_leader_before_x = "You are ~r~outside the redzone~w~ get back or you will loose your title in ~r~%s seconds~w~.",
+	redzone_kill_leader_new_xp_step = "~r~Redzone XP Multiplier\n~b~+%s%~w~ bonus",
+	remaining_lives = "Remaining lives",
+
+	name_tag = "Crew tag",
+	redzone_changed = "~r~Red zones moved to a new position.",
+
+	-- Squad
+	squad_not_leader = "~r~You are not the leader of your squad.",
+	squad_kicked_by_x = "You have been ~r~kicked~w~ from your squad by ~r~%s~w~.",
+	squad_you_kicked_x = "You kicked ~r~%s~w~ from your squad.",
+	squad_invited_x = "You invited ~r~%s~w~ to your squad.",
+	squad_invited_you_x = "~r~%s~w~ invited you to its squad.\nType ~r~/squad join %s~w~ to join the squad.",
+	squad_you_set_new_leader = "You set ~r~%s~w~ as the new ~r~leader~w~ of the squad.",
+	squad_you_are_new_leader = "~g~You are the new leader of the squad.",
+	squad_not_invited = "~r~You have not been invited to the squad.",
+	squad_joined_squad = "~g~You joined the squad.",
+	squad_left = "~r~You left the squad.",
+	squad_already_in = "~r~You are already in a squad.",
+	squad_created_x = "You created a new squad. ~b~(%s)",
+	squad_x_joined = "~b~%s~w~ joined the squad.",
+	squad_leader_deleted = "~r~The leader deleted the squad.",
+	write_yes_to_confirm = "Type yes to confirm",
+	invite_a_player_write_char_id = "Invite a player. Type its character id",
+
+	-- Help stuff
+	press_enter_beginner_guide = "Press ~INPUT_ENTER~ to start the beginner guide.",
+	welcome_glife = "Welcome on ~r~GLife Extinction~w~!",
+	you_are_playing_server_x_with_x = "You are playing on server ~b~#%s~w~ with ~b~%s players~w~.",
+	start_beginner_guide = "Start the beginner guide",
+	play_now = "~g~Play now!",
+	interact_npc_fast_travel = "Interact with the fast travel NPC",
+
+	-- Tutorial
+	tutorial_beginner_end_msg = "~r~Thank you for your time!\n~w~Have fun playing Extinction, if you have any question use the chat or find us on discord.",
+	tutorial_beginner_start_msg = "~r~Welcome on GLife Extinction!\n~w~This short guide aims to explain how to begin on this gamemode.",
+	tutorial_beginner_camera_01 = "~r~~BLIP_557~ ~r~Main safezone\n~w~This is a safe area where you can shop and store items, but also personalize your equipment and trade with other players.",
+	tutorial_beginner_camera_02 = "~BLIP_568~ ~r~Storage chests\n~w~Here you can access your private storage and store your precious items.",
+	tutorial_beginner_camera_03 = "~BLIP_567~~BLIP_556~~BLIP_658~ ~r~NPC Shops\n~w~You can buy and sell your items in many shops like the weapon, vehicle or equipment dealer.",
+	tutorial_beginner_camera_04 = "~BLIP_84~ ~r~Public bounties\n~w~If you manage to find and kill the target, you will get the associated reward.",
+	tutorial_beginner_camera_05 = "~BLIP_176~ ~r~Hostile world\n~w~You will meet zombies and hostile players. They will all want to get you killed, but they are the best way to get XP and great loot.",
+	tutorial_beginner_camera_06 = "~BLIP_303~ ~r~World redzones\n~w~There you can find better loot and earn more experiences from your kills.",
+	tutorial_beginner_camera_07 = "~BLIP_648~ ~r~Darkzone Island\n~w~Here you cannot save items nor flee easily, but it is the best place to find high-tier loot like MK2 weapons or snipers.",
+	tutorial_beginner_camera_08 = "~BLIP_575~ ~r~Loot and exploration opportunities\n~w~You can fight for airdrop crates but also explore and beat dungeon boss.",
+	tutorial_beginner_training_01 = "~g~You joined the training room.\n~w~Jump with ~INPUT_JUMP~ when you are ready.",
+	tutorial_beginner_training_02 = "~g~Let's use the inventory.\n~w~Press ~%s~ to open your inventory.",
+	tutorial_beginner_training_03 = "~g~Equip a weapon.\n~w~Open the inventory and drag a weapon in the shortcut bar.\nPress the corresponding key ~b~1/2/3/4/5/6/7~w~.\n~r~If you do not have any weapon use ~b~/kit newbie.",
+	tutorial_beginner_training_04 = "~g~Fill your weapon ammo.\n~w~Equip a gun and put a box of ammo in your shortcut bar. Then press the shortcut key.",
+	tutorial_beginner_training_05 = "~g~Finally vehicles.\n~w~You can spawn vehicles just like you equip a weapon. Once spawned, you can store it with ~%s~ while driving it. Press the key to confirm.",
+	tutorial_beginner_training_success_01 = "~g~Great job, we can begin now!",
+	tutorial_beginner_training_success_02 = "~g~Nice, you got it.\n~w~It is the same process to use all items.",
+	tutorial_beginner_training_success_03 = "~g~Nice, you got it.\n~w~It is the same process to use all items.",
+	tutorial_beginner_training_success_04 = "~g~Nice, you got it.\n~w~We are done now.",
+
+	-- Darkzone stuff
+	contaminated = "contaminated",
+	darkzone_boat_leaving_in = "Boat leaving in",
+	darkzone_exit = "Exit spot",
+	purificator = "Purificator",
 	you_entered_the_darkzone = "~r~Sei entrato nella DarkZone.",
 	you_left_the_darkzone = "~r~Sei uscito dalla DarkZone.",
 	cannot_enter_darkzone_time = "~r~La DarkZone non è ancora aperta, attendi.",
 	darkzone_is_full = "~r~La DarkZone è piena, per favore attendi.",
 	darkzone_exit_allowed = "~r~Sono arrivate le navi per andartene dalla DarkZone, corri se vuoi scappare.",
+	darkzone_close_time = "Closing in",
+	darkzone_surviving_since = "Surviving since",
+	darkzone_points = "Points",
+	darkzone_points_x = "~r~Darkzone points: ~w~+%s",
+	darkzone_landing_in_x = "Landing available in ~b~%s minutes~w~.\nIf enough players.",
+	darkzone_open_press_context = "The darkzone is open~w~.\nPress ~INPUT_CONTEXT~ to land ~m~on the darkzone~w~.",
+	darkzone_outside_warning = "~r~You are outside the darkzone, come back or die.",
+	darkzone_close_warning = "~r~The darkzone is closing soon~w~.\nYou should not stay here too long.",
+	darkzone_close_damage = "The darkzone closed, the entire area is now contaminated.",
+	darkzone_not_enough_points_to_exit = "You need ~r~%sx points~w~ to exit the darkzone.",
+	press_e_to_exit_the_darkzone = "Press ~INPUT_CONTEXT~ to exit the darkzone.\n~r~You need x%s darkzone points.",
+	use_purificator = "use the purificator",
+	darkzone_not_enough_points_to_start_purificator = "You need ~r~%sx points~w~ to start the purificator.",
+	darkzone_not_enough_points_to_refill_purificator = "You need ~r~%sx points~w~ to refill the purificator.",
+	darkzone_too_far_from_purificator = "~r~You are too far from the purificator.",
+	darkzone_cant_remove_while_running_purificator = "~r~You cannot remove items while the purificator is running.",
+	darkzone_purificator_running = "~r~You cannot put items while the purificator is running.",
+	darkzone_purificator_running_refill = "~r~You cannot refill the machine while the purificator is running.",
+	darkzone_put_x_in_purificator = "You put ~r~%s~w~ in the purificator.",
+	darkzone_you_took_x_from_purificator = "You took ~r~%s~w~ from the purificator.",
+	darkzone_purificator_does_not_need_refill = "You do not need to ~r~refill this purificator~w~.",
+	darkzone_refilled_purificator_x = "You used ~r~x%s points~w~ to refill the purificator.",
+	darkzone_open = "Darkzone landing are available.\n~r~Find a transporter in any safezone.",
+	darkzone_item_clean = "This item is already clean.\n~r~You can only put contaminated items.",
+	
+	dungeon_cooldown_between = "Please wait ~r~%s minutes~w~ before starting a dungeon again.",
+	set_as_default = "Set as default custom for vehicle model",
+	car_custom_presets_saved = "Your customization presets for ~g~%s~w~ have been saved.",
+	marketplace_you_received_x_x = "You received ~b~%sx ~g~%s~w~.",
+
+	above_level_x_no_longer_possible_loot_safe = "Player above rank %s cannot loot zombies in safezones.",
+	preferred_component_desc = "This set will be the default set of all %s weapon you hold.",
+	set_as_preferred_component_class = "Set as preferred component set",
+	weapon_presets_updated = "You have set the default component presets for your ~g~%s~w~.",
+
+	-- New survey
+	poll6_q1 = "Would you like the crew member limit to be set to 25 members? (more competition, smaller groups)",
+	poll6_q2 = "Is your main server fine for your ping? (Is your average ping ok?)",
+	poll6_q3 = "Are you playing in private worlds?",
+	poll6_q4 = "Should headshots be enabled for season 4?",
+	
+	casino_dungeon_desc = "⚠️ ~r~You may need flashlight on your weapon to see well here.",
+	dungeon_destroy_wall_obj = "Destroy the wall blocking your path.",
+	dungeon_use_key_obj = "Use the key to open the door.",
+	dungeon_kill_zombies_obj = "Kill all zombies.",
+	dungeon_kill_zombies_obj_x = "~b~Kill all zombies.~w~\n%s/%s of players have killed their zombies.",
+	dungeon_use_key_to_open_door = "Use the key to open the door.",
+	dungeon_find_key_obj = "Find a key to open the door in the room.",
+	take_key = "take the key",
+	open_the_door = "open the door",
+	dungeon_quit_notif = "Type ~g~/dungeon quit~w~ to leave the dungeon.",
+	dungeon_generator_obj = "Find the generator and get the power back.",
+	dungeon_press_generator = "Press ~INPUT_CONTEXT~ to toggle the generator.",
+	power_generator = "Power generator",
+	dungeon_find_c4_obj = "There are blocks of C4 hidden somewhere, find them.",
+	dungeon_use_c4_obj = "Use your C4 to blow up the vault door.",
+	dungeon_party_help = "Type ~b~\"/dungeon\"~w~ to manage the dungeon party.",
+	press_x_to = "Press %s to %s",
+
+	quest_clean_zone = "Clean the zone: %s",
+	quest_clean_zone_desc = "Reach %s and clean the area of zombies.",
+
+	loot_crate_light = "Light Loot Crate",
+	loot_crate_medium = "Medium Loot Crate",
+	loot_crate_high = "High Loot Crate",
+	
+	dailymission_killzombieinzoneid = "Zombies killed in the zone",
+	dailymission_dungeonbosskilled = "Dungeon boss killed",
+
+	quest_too_far_npc = "~r~You are too far from the quest NPC.",
+	quest_already_started_quest = "~r~You have already started this quest.",
+	quest_redo_in_x = "~r~You have already done this quest.\n~w~You will be able to redo this quest in ~b~%s",
+	quest_max_quests_reached = "~r~You can only accept %s quests.",
+	quest_new_accepted = "~g~You accepted a new quest.",
+	quest_gave_up = "~r~You gave up this quest.",
+	quest_not_completed = "~r~You need to complete all objectives of the quest.",
+	quest_already_completed = "~r~You already have completed this quest.",
+	quest_all_completed = "~g~You successfully completed all objectives.",
+	dungeon_key = "Dungeon key",
+	darkzone_cannot_enter_min_levels = "You must be level ~b~%s~w~ to enter the darkzone.",
+	darkzone_you_survived_x = "You survived ~r~%s minute(s)~w~ in the darkzone.",
+	questmenu_command = "Open the quest menu",
+	squadmenu_command = "Open the squad menu",
+	airdrop_coming_darkzone = "~r~An airdrop is coming in the darkzone check your map.",
+	darkzone_full_crew = "There is already ~r~%s members~w~ of your crew in the darkzone, wait for someone to leave.",
+
+	crew_join_cooldown_x = "You need to wait ~r~%s~w~ before joining this crew.",
+	darkzone_not_enough_players_darkzone = "The darkzone will not open.\n~r~Not enough players.",
+
+	dungeon_loot_boss_box = "~g~A chest appeared in the center of the room.",
+	drug_antizin_bar = "Antizin effect",
+	drug_stamina_bar = "Stamina effect",
+	drug_berserker_bar = "Health effect",
 }
 
 AddLanguage("it", my_language)
