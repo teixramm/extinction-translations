@@ -21,5 +21,7 @@
 	"killfeedEnabled": "Kill feed",
 	"killfeedEnabled_desc": "Choose whether or not the killfeed is displayed",
 	"voiceChatEnabled": "Voice chat",
-	"voiceChatEnabled_desc": "Disable or enable the in-game voice chat"
+	"voiceChatEnabled_desc": "Disable or enable the in-game voice chat",
+	"antizinDisableZombieSpawn": "Disable zombie spawning with antizin",
+	"antizinDisableZombieSpawn_desc": "Disable or enable zombie spawning with antizin"
 }

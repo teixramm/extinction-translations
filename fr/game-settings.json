@@ -21,5 +21,6 @@
 	"killfeedEnabled": "Kill feed",
 	"killfeedEnabled_desc": "Choisissez si la killfeed est affiché ou non.",
 	"voiceChatEnabled": "Chat vocal",
-	"voiceChatEnabled_desc": "Désactiver ou activer le chat vocal en jeu"
+	"antizinDisableZombieSpawn": "Désactiver le spawn des zombies avec l'antizin",
+	"antizinDisableZombieSpawn_desc": "Désactiver ou activer le spawn des zombies en vous injectant de l'antizin"
 }
