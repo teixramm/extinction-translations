@@ -873,7 +873,7 @@ L'obtention d'un nouveau prestige vous donne un badge spécial et de nouveaux av
 	darkzone_boat_leaving_in = "Départ des bateaux",
 	darkzone_exit = "Spot de sortie",
 	purificator = "Purificateur",
-	you_entered_the_darkzone = "~r~Vous êtes entré dans la darkzone.",
+	you_entered_the_darkzone = "~r~Vous êtes entré dans la darkzone.\n~w~Il y a actuellement ~b~%s joueurs~w~ à l'intérieur.",
 	you_left_the_darkzone = "~r~Vous avez quitté la darkzone.",
 	cannot_enter_darkzone_time = "~r~La darkzone n'est pas encore ouverte, patientez.",
 	darkzone_is_full = "~r~La darkzone est pleine, veuillez patienter.",

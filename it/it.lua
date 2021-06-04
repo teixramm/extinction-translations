@@ -100,7 +100,7 @@ local my_language = {
 	invitation_expired = "L\'invito è scaduto.",
 	crew_kick_success = "Hai espulso <C>~b~%s</C>~w~ dalla crew.",
 	first_rank_warning = "Il primo rank è quello 'predefinito'.",
-	you_entered_crew_pro = "Sei entrato nella casa Crew"
+	you_entered_crew_pro = "Sei entrato nella casa Crew",
 
 	you_updated_this = "Hai aggiornato %s a ~g~<C>%s</C>~w~.",
 	changes_saved_on = "Il cambiamento su <C>~g~%s</C>~w~ è stato salvato.",

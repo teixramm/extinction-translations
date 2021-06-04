@@ -11,7 +11,7 @@
 	"duiDisabled_desc": "Choose to disable whether or not the safezone screen is enabled",
 	"crosshairSize_desc": "Select the reticle size",
 	"deathMessage_desc": "Set your custom death message (for gold/diamond)",
-	"language_desc": "Choose the default game language",
+	"language_desc": "Override the default game language",
 	"zombieScreams": "Zombie screams",
 	"zombieScreams_desc": "Choose whether or not zombie screams are enabled",
 	"hitmarkerSoundEnabled": "Hitmarker sound",
