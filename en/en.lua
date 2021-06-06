@@ -971,6 +971,8 @@ Getting a new prestige gives you a special badge and new perks like better loot,
 	drug_antizin_bar = "Antizin effect",
 	drug_stamina_bar = "Stamina effect",
 	drug_berserker_bar = "Health effect",
+
+	squad_members_limit = "~r~You squad reached the members limit.",
 }
 
 AddLanguage("en", my_language)

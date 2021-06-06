@@ -970,6 +970,8 @@ L'obtention d'un nouveau prestige vous donne un badge spécial et de nouveaux av
 	drug_antizin_bar = "Effet Antizin",
 	drug_stamina_bar = "Effet Endurance",
 	drug_berserker_bar = "Effet Vie",
+
+	squad_members_limit = "~r~Votre squad a atteint la limite de membres.",
 }
 
 AddLanguage("fr", my_language)
